@@ -2,7 +2,7 @@
 theory:
   camb:
     ignore_obsolete: true
-    path: /data2/code/eftcamb_osc
+    path: /data2/code/eftcamb_gede
     extra_args:
       num_massive_neutrinos: 1
       nnu: 3.044
@@ -23,7 +23,7 @@ likelihood:
   bao.sdss_dr12_consensus_bao: null
   pantheonplus:
     data_path: /data2/data/PantheonPlus/
-    python_path: /data2/code/eftcamb_osc
+    python_path: /data2/code/eftcamb_gede
     with_sh0es: true
 params:
   ombh2:
