@@ -1,0 +1,78 @@
+ -log(Like) = 16237.31141465226
+  chi-sq    = 32474.62282930452
+
+    1  2.279805789e-02   ombh2                               \Omega_\mathrm{b} h^2
+    2  1.261277718e-01   omch2                               \Omega_\mathrm{c} h^2
+    3  7.081514841e+01   H0                                  H_0
+    4  9.845007930e-01   ns                                  n_\mathrm{s}
+    5  3.069660744e+00   logA                                \log(10^{10} A_\mathrm{s})
+    6  6.523973417e-02   tau                                 \tau_\mathrm{reio}
+    8  7.465056082e-02   f_hede                              f_\mathrm{hede}
+    9  8.108832038e+00   lnzc                                \log(1+z_c)
+   14  -1.933573422e+01  Mb                                  M_b
+   17  3.613217088e-03   DES_DzL1                            \Delta z_\mathrm{l,DES}^1
+   18  9.069371323e-04   DES_DzL2                            \Delta z_\mathrm{l,DES}^2
+   19  3.293001134e-03   DES_DzL3                            \Delta z_\mathrm{l,DES}^3
+   20  1.653155064e-03   DES_DzL4                            \Delta z_\mathrm{l,DES}^4
+   21  3.193442710e-04   DES_DzL5                            \Delta z_\mathrm{l,DES}^5
+   22  1.515016927e+00   DES_b1                              b_\mathrm{DES}^1
+   23  1.693659886e+00   DES_b2                              b_\mathrm{DES}^2
+   24  1.685660705e+00   DES_b3                              b_\mathrm{DES}^3
+   25  2.040349934e+00   DES_b4                              b_\mathrm{DES}^4
+   26  2.140731923e+00   DES_b5                              b_\mathrm{DES}^5
+   27  -3.155874816e-03  DES_DzS1                            \Delta z_\mathrm{s,DES}^1
+   28  -3.087658215e-02  DES_DzS2                            \Delta z_\mathrm{s,DES}^2
+   29  3.178431389e-03   DES_DzS3                            \Delta z_\mathrm{s,DES}^3
+   30  -3.717854126e-02  DES_DzS4                            \Delta z_\mathrm{s,DES}^4
+   31  8.631747342e-03   DES_m1                              m_\mathrm{DES}^1
+   32  1.473845059e-02   DES_m2                              m_\mathrm{DES}^2
+   33  -8.014767288e-03  DES_m3                              m_\mathrm{DES}^3
+   34  2.314637495e-03   DES_m4                              m_\mathrm{DES}^4
+   35  5.408961894e-01   DES_AIA                             A_\mathrm{IA,DES}
+   36  -1.342904633e+00  DES_alphaIA                         \alpha_\mathrm{IA,DES}
+   38  1.000671736e+00   A_planck                            y_\mathrm{cal}
+   39  1.001789545e+00   cal100A                             c_\mathrm{100A}
+   40  1.003719974e+00   cal100B                             c_\mathrm{100B}
+   42  1.002179034e+00   cal143B                             c_\mathrm{143B}
+   43  1.001130116e+00   cal217A                             c_\mathrm{217A}
+   44  9.978754303e-01   cal217B                             c_\mathrm{217B}
+   51  6.769857086e+01   Aradio                              A_\mathrm{radio}^\mathrm{PS}
+   53  5.736442458e+00   Adusty                              A_\mathrm{IR}^\mathrm{PS}
+   55  1.082883204e+00   AdustT                              A_\mathrm{dustT}
+   56  1.514677039e+00   beta_dustT                          \beta_\mathrm{dustT}
+   58  1.232995430e+00   Acib                                A_\mathrm{CIB}
+   59  1.855508057e+00   beta_cib                            \beta_\mathrm{CIB}
+   60  4.396156238e+00   Atsz                                A_\mathrm{tSZ}
+   61  9.050921770e-01   Aksz                                A_\mathrm{kSZ}
+   62  5.204674992e-01   xi                                  \xi_\mathrm{SZxCIB}
+   63  1.205762969e+00   AdustP                              A_\mathrm{dustP}
+   64  1.594275605e+00   beta_dustP                          \beta_\mathrm{dustP}
+
+   10  0.0               xiv_phi                             xiv\ phi
+   37  0.62              DES_z0IA                            z_{0\mathrm{IA,DES}}
+   41  1.0               cal143A                             c_\mathrm{143A}
+   45  1.0               pe100A                              \eta_\mathrm{100A}
+   46  1.0               pe100B                              \eta_\mathrm{100B}
+   47  1.0               pe143A                              \eta_\mathrm{143A}
+   48  1.0               pe143B                              \eta_\mathrm{143B}
+   49  0.975             pe217A                              \eta_\mathrm{217A}
+   50  0.975             pe217B                              \eta_\mathrm{217B}
+   52  -0.8              beta_radio                          \beta_\mathrm{radio}^\mathrm{PS}
+   57  0.0               AsyncT                              A_\mathrm{syncT}
+   65  0.0               AsyncP                              A_\mathrm{syncP}
+
+    7  2.153459569e-09   As                                  A_\mathrm{s}
+   15  2.982593333e-01   omegam                              \Omega_\mathrm{m}
+   16  8.262975267e-01   sigma8                              \sigma_8
+   54  1.855508057e+00   beta_dusty                          \beta_\mathrm{IR}^\mathrm{PS}
+   66  5.627312593e+00   chi2__BAO                           \chi^2_\mathrm{BAO}
+   67  2.958109525e+01   chi2__CMB                           \chi^2_\mathrm{CMB}
+   68  5.082624694e+02   chi2__des_y1.joint                  \chi^2_{\rm des\ y1.joint}
+   69  3.050609766e+04   chi2__planck_2020_hillipop.TTTEEE   \chi^2_{\rm planck\ 2020\ hillipop.TTTEEE}
+   70  2.069914272e+01   chi2__planck_2018_lowl.TT           \chi^2_{\rm planck\ 2018\ lowl.TT}
+   71  3.438298219e+01   chi2__planck_2020_lollipop.lowlE    \chi^2_{\rm planck\ 2020\ lollipop.lowlE}
+   72  8.881952525e+00   chi2__planckpr4lensing              \chi^2_{\rm planckpr4lensing}
+   73  1.749084460e-02   chi2__bao.sixdf_2011_bao            \chi^2_{\rm bao.sixdf\ 2011\ bao}
+   74  2.144612733e+00   chi2__bao.sdss_dr7_mgs              \chi^2_{\rm bao.sdss\ dr7\ mgs}
+   75  3.465209015e+00   chi2__bao.sdss_dr12_consensus_bao   \chi^2_{\rm bao.sdss\ dr12\ consensus\ bao}
+   76  1.464687364e+03   chi2__pantheonplus                  \chi^2_{\rm pantheonplus}

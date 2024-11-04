@@ -1,0 +1,56 @@
+ -log(Like) = 16018.02429280394
+  chi-sq    = 32036.04858560788
+
+    1  2.259812404e-02   ombh2                               \Omega_\mathrm{b} h^2
+    2  1.255056334e-01   omch2                               \Omega_\mathrm{c} h^2
+    3  7.108387247e+01   H0                                  H_0
+    4  9.720033450e-01   ns                                  n_\mathrm{s}
+    5  3.043162091e+00   logA                                \log(10^{10} A_\mathrm{s})
+    6  6.160007146e-02   tau                                 \tau_\mathrm{reio}
+    8  9.871294417e-02   f_hede                              f_\mathrm{hede}
+    9  9.484099943e+00   lnzc                                \log(1+z_c)
+   14  -1.932890054e+01  Mb                                  M_b
+   17  1.000604450e+00   A_planck                            y_\mathrm{cal}
+   18  1.000299258e+00   cal100A                             c_\mathrm{100A}
+   19  1.004783206e+00   cal100B                             c_\mathrm{100B}
+   21  1.001581380e+00   cal143B                             c_\mathrm{143B}
+   22  9.953797623e-01   cal217A                             c_\mathrm{217A}
+   23  1.002824167e+00   cal217B                             c_\mathrm{217B}
+   30  6.648743363e+01   Aradio                              A_\mathrm{radio}^\mathrm{PS}
+   32  5.465156471e+00   Adusty                              A_\mathrm{IR}^\mathrm{PS}
+   34  1.090383420e+00   AdustT                              A_\mathrm{dustT}
+   35  1.511473535e+00   beta_dustT                          \beta_\mathrm{dustT}
+   37  1.062904337e+00   Acib                                A_\mathrm{CIB}
+   38  1.871361436e+00   beta_cib                            \beta_\mathrm{CIB}
+   39  3.458825342e+00   Atsz                                A_\mathrm{tSZ}
+   40  1.083262790e+01   Aksz                                A_\mathrm{kSZ}
+   41  9.486990617e-01   xi                                  \xi_\mathrm{SZxCIB}
+   42  1.182245469e+00   AdustP                              A_\mathrm{dustP}
+   43  1.581528880e+00   beta_dustP                          \beta_\mathrm{dustP}
+
+   10  0.0               xiv_phi                             xiv\ phi
+   20  1.0               cal143A                             c_\mathrm{143A}
+   24  1.0               pe100A                              \eta_\mathrm{100A}
+   25  1.0               pe100B                              \eta_\mathrm{100B}
+   26  1.0               pe143A                              \eta_\mathrm{143A}
+   27  1.0               pe143B                              \eta_\mathrm{143B}
+   28  0.975             pe217A                              \eta_\mathrm{217A}
+   29  0.975             pe217B                              \eta_\mathrm{217B}
+   31  -0.8              beta_radio                          \beta_\mathrm{radio}^\mathrm{PS}
+   36  0.0               AsyncT                              A_\mathrm{syncT}
+   44  0.0               AsyncP                              A_\mathrm{syncP}
+
+    7  2.097145214e-09   As                                  A_\mathrm{s}
+   15  2.943816024e-01   omegam                              \Omega_\mathrm{m}
+   16  8.070819099e-01   sigma8                              \sigma_8
+   33  1.871361436e+00   beta_dusty                          \beta_\mathrm{IR}^\mathrm{PS}
+   45  6.361063183e+00   chi2__BAO                           \chi^2_\mathrm{BAO}
+   46  3.266884988e+01   chi2__CMB                           \chi^2_\mathrm{CMB}
+   47  30507.281         chi2__planck_2020_hillipop.TTTEEE   \chi^2_{\rm planck\ 2020\ hillipop.TTTEEE}
+   48  2.255400689e+01   chi2__planck_2018_lowl.TT           \chi^2_{\rm planck\ 2018\ lowl.TT}
+   49  3.322009847e+01   chi2__planck_2020_lollipop.lowlE    \chi^2_{\rm planck\ 2020\ lollipop.lowlE}
+   50  1.011484299e+01   chi2__planckpr4lensing              \chi^2_{\rm planckpr4lensing}
+   51  6.006323834e-02   chi2__bao.sixdf_2011_bao            \chi^2_{\rm bao.sixdf\ 2011\ bao}
+   52  2.519280188e+00   chi2__bao.sdss_dr7_mgs              \chi^2_{\rm bao.sdss\ dr7\ mgs}
+   53  3.781719757e+00   chi2__bao.sdss_dr12_consensus_bao   \chi^2_{\rm bao.sdss\ dr12\ consensus\ bao}
+   54  1.464176506e+03   chi2__pantheonplus                  \chi^2_{\rm pantheonplus}

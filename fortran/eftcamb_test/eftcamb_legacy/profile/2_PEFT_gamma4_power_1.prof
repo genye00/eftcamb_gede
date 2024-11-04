@@ -1,0 +1,1319 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 23.55     29.61    29.61  2875608     0.00     0.00  gaugeinterface_mp_derivs_
+ 17.45     51.55    21.94  1214451     0.00     0.00  gaugeinterface_mp_derivst_
+  8.18     61.84    10.29    69349     0.00     0.00  dverk_
+  7.23     70.93     9.10  2792463     0.00     0.00  gaugeinterface_mp_massivenuvars_
+  6.61     79.24     8.31                             __libm_pow_e7
+  5.90     86.66     7.42    57841     0.00     0.00  cambmain_mp_doflatintegration_
+  4.76     92.65     5.99                             __libm_log_e7
+  3.72     97.33     4.68                             __libm_exp_e7
+  2.73    100.76     3.43  7223049     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_
+  2.60    104.04     3.28  4499928     0.00     0.00  eftcamb_cache_mp_eftcambtimestepcacheinit_
+  2.52    107.21     3.17                             __intel_ssse3_rep_memcpy
+  1.67    109.31     2.10    58096     0.00     0.00  cambmain_mp_interpolatesources_
+  1.21    110.83     1.52  4972593     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_
+  1.16    112.29     1.46  5071849     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_
+  1.09    113.66     1.37 11092097     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_
+  0.80    114.66     1.00 27220605     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dfirstderivative_
+  0.76    115.62     0.96  4206443     0.00     0.00  dtauda_
+  0.76    116.57     0.95 70931560     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_
+  0.72    117.48     0.91 10672609     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_
+  0.50    118.11     0.63 12240220     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfirstderivative_
+  0.50    118.74     0.63 10936084     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsecondderivative_
+  0.45    119.30     0.56       10     0.06     0.06  cambmain_mp_calctenscls_
+  0.39    119.79     0.49 32966903     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dfirstderivative_
+  0.35    120.23     0.44 32180108     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dvalue_
+  0.29    120.60     0.37 12715816     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dvalue_
+  0.27    120.94     0.34       10     0.03     0.03  lensing_mp_corrfuncfullskyimpl_
+  0.26    121.27     0.33  8784524     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsecondderivative_
+  0.26    121.60     0.33                             __libm_logf_dispatch_table_init
+  0.25    121.91     0.31  9900228     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dintegral_
+  0.25    122.22     0.31       20     0.02     0.02  cambmain_mp_initsourceinterpolation_
+  0.24    122.52     0.30                             __libm_powf_dispatch_table_init
+  0.19    122.76     0.24       10     0.02     0.02  cambmain_mp_calcscalcls_
+  0.17    122.98     0.22  4023023     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputedtauda_
+  0.15    123.17     0.19                             __libm_pow_l9
+  0.14    123.34     0.17                             eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsecondderivative_
+  0.13    123.50     0.16    24421     0.00     0.00  gaugeinterface_mp_output_
+  0.12    123.65     0.15      109     0.00     0.76  cambmain_mp_dosourcek_
+  0.11    123.79     0.14  8922945     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dthirdderivative_
+  0.10    123.92     0.13       69     0.00     0.03  gaugeinterface_mp_initial_
+  0.10    124.05     0.13                             __libm_expf_dispatch_table_init
+  0.10    124.17     0.12    23842     0.00     0.00  gaugeinterface_mp_massivenuvarsout_
+  0.10    124.29     0.12       20     0.01     0.01  spherbessels_mp_initspherbessels_
+  0.10    124.41     0.12                             __libm_log_l9
+  0.09    124.52     0.11                             __libm_exp_l9
+  0.08    124.62     0.10                             eftcamb_cpl_parametrizations_1d_mp_cplparametrized1dsetparamnumber_
+  0.07    124.71     0.09   300000     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdadditionalmodelstability_
+  0.07    124.80     0.09    42900     0.00     0.00  gaugeinterface_mp_outputt_
+  0.06    124.88     0.08    23889     0.00     0.00  gaugeinterface_mp_gaugeinterface_evolvescal_
+  0.06    124.96     0.08       90     0.00     0.00  modeldata_mp_init_cltransfer_
+  0.06    125.04     0.08                             __intel_memset
+  0.06    125.11     0.07   300000     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelcomputepifactors_
+  0.04    125.16     0.06                             for_fp_class_t_
+  0.04    125.21     0.05    68316     0.00     0.00  thermodata_mp_thermo_
+  0.04    125.26     0.05       81     0.00     0.40  cambmain_mp_calcscalarsources_
+  0.04    125.31     0.05                             eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dthirdderivative_
+  0.03    125.35     0.04                             eftcamb_abstract_model_mp_eftcambmodelcomputeeinsteinfactors_
+  0.03    125.39     0.04                             gaugeinterface_mp_initialv_
+  0.02    125.42     0.03                             eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dintegral_
+  0.02    125.45     0.03   300000     0.00     0.00  eftcamb_cache_mp_eftcambtimestepcacheisnan_
+  0.02    125.48     0.03   300000     0.00     0.00  eftcamb_stability_mp_eftstabilitycomputation_
+  0.02    125.51     0.03   152697     0.00     0.00  spherbessels_mp_bjl_
+  0.02    125.54     0.03    42548     0.00     0.00  gaugeinterface_mp_gaugeinterface_evolvetens_
+  0.02    125.57     0.03       20     0.00     0.19  thermodata_mp_inithermo_
+  0.02    125.60     0.03                             for_is_nan_t_
+  0.02    125.62     0.02   901310     0.00     0.00  reionization_mp_reionization_doptdepth_dz_
+  0.02    125.64     0.02      106     0.00     0.00  splder_
+  0.01    125.65     0.01   300000     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelcomputestabilityfactors_
+  0.01    125.66     0.01   300000     0.00     0.00  eftcamb_stability_mp_eftteststability_
+  0.01    125.67     0.01    57700     0.00     0.00  cambmain_mp_sourcetotransfers_
+  0.01    125.68     0.01    24016     0.00     0.00  gaugeinterface_mp_gaugeinterface_scalev_
+  0.01    125.69     0.01       10     0.00     0.14  eftcamb_stability_mp_eftcamb_stability_check_
+  0.01    125.70     0.01                             __libm_acos_ex
+  0.01    125.71     0.01                             __libm_cos_y8
+  0.01    125.72     0.01                             __libm_sse2_sincos
+  0.01    125.73     0.01                             do_alloc_copy
+  0.00    125.73     0.01       20     0.00     0.00  transfer_mp_transfer_get_sigmar_
+  0.00    125.73     0.00   620018     0.00     0.00  massivenu_mp_nu_background_
+  0.00    125.73     0.00   310000     0.00     0.00  massivenu_mp_nu_drho_
+  0.00    125.73     0.00   310000     0.00     0.00  massivenu_mp_nu_pidot_
+  0.00    125.73     0.00   300000     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelcomputetensorfactors_
+  0.00    125.73     0.00    57416     0.00     0.00  cambmain_mp_integrationvars_init_
+  0.00    125.73     0.00    42100     0.00     0.00  initialpower_mp_scalarpower_
+  0.00    125.73     0.00    30353     0.00     0.00  recombination_mp_ion_
+  0.00    125.73     0.00    22010     0.00     0.00  initialpower_mp_tensorpower_
+  0.00    125.73     0.00    10000     0.00     0.00  eftcamb_returntogr_mp_eftcambreturntogr_functions_
+  0.00    125.73     0.00     7738     0.00     0.00  recombination_mp_recombination_xe_
+  0.00    125.73     0.00     7481     0.00     0.00  thermodata_mp_ddragoptdepth_dz_
+  0.00    125.73     0.00     3385     0.00     0.00  thermodata_mp_dothermospline_
+  0.00    125.73     0.00      374     0.00     0.00  gaugeinterface_mp_copyscalarvariablearray_
+  0.00    125.73     0.00      257     0.00     0.00  modelparams_mp_dtda_
+  0.00    125.73     0.00      257     0.00     0.00  thermodata_mp_ddamping_da_
+  0.00    125.73     0.00      240     0.00     0.00  inifile_mp_ini_namevalue_add_
+  0.00    125.73     0.00      234     0.00     0.00  inifile_mp_tnamevaluelist_haskey_
+  0.00    125.73     0.00      185     0.00     0.00  ranges_mp_ranges_add_
+  0.00    125.73     0.00      162     0.00     0.00  gaugeinterface_mp_getnumeqns_
+  0.00    125.73     0.00      130     0.00     0.00  lvalues_mp_interpolateclarr_
+  0.00    125.73     0.00      117     0.00     0.00  inifile_mp_tnamevaluelist_add_
+  0.00    125.73     0.00      100     0.00     0.00  inifile_mp_ini_read_string_file_
+  0.00    125.73     0.00       99     0.00     0.00  gaugeinterface_mp_setupscalararrayindices_
+  0.00    125.73     0.00       99     0.00     0.00  modelparams_mp_dsound_da_exact_
+  0.00    125.73     0.00       86     0.00     0.00  ranges_mp_ranges_free_
+  0.00    125.73     0.00       80     0.00     0.00  modelparams_mp_deltatime_
+  0.00    125.73     0.00       60     0.00     0.00  lvalues_mp_interpolateclarrtemplated_
+  0.00    125.73     0.00       57     0.00     0.00  thermodata_mp_dragoptdepth_
+  0.00    125.73     0.00       50     0.00     0.00  gaugeinterface_mp_initialt_
+  0.00    125.73     0.00       40     0.00     0.00  ranges_mp_ranges_getdpoints_
+  0.00    125.73     0.00       37     0.00     0.00  gaugeinterface_mp_switchtomassivenuapprox_
+  0.00    125.73     0.00       30     0.00     0.00  lvalues_mp_initlval_
+  0.00    125.73     0.00       29     0.00     0.00  gaugeinterface_mp_copytensorvariablearray_
+  0.00    125.73     0.00       27     0.00     0.00  inifile_mp_ini_read_double_file_
+  0.00    125.73     0.00       26     0.00     0.00  thermodata_mp_thermodata_free_
+  0.00    125.73     0.00       25     0.00     0.00  inifile_mp_ini_read_logical_file_
+  0.00    125.73     0.00       20     0.00     0.04  cambmain_mp_cltransfertocl_
+  0.00    125.73     0.00       20     0.00     4.94  cambmain_mp_cmbmain_
+  0.00    125.73     0.00       20     0.00     0.00  cambmain_mp_freesourcemem_
+  0.00    125.73     0.00       20     0.00     0.21  cambmain_mp_initvars_
+  0.00    125.73     0.00       20     0.00     0.00  cambmain_mp_interpolatecls_
+  0.00    125.73     0.00       20     0.00     0.00  cambmain_mp_setkvaluesforint_
+  0.00    125.73     0.00       20     0.00     0.00  cambmain_mp_setkvaluesforsources_
+  0.00    125.73     0.00       20     0.00     0.00  gaugeinterface_mp_gaugeinterface_init_
+  0.00    125.73     0.00       20     0.00     0.00  initialpower_mp_initializepowers_
+  0.00    125.73     0.00       20     0.00     0.00  modeldata_mp_init_cls_
+  0.00    125.73     0.00       20     0.00     0.13  modelparams_mp_cambparams_set_
+  0.00    125.73     0.00       20     0.00     0.17  recombination_mp_recombination_init_
+  0.00    125.73     0.00       20     0.00     0.00  thermodata_mp_settimesteps_
+  0.00    125.73     0.00       15     0.00     0.02  cambmain_mp_gettransfer_
+  0.00    125.73     0.00       15     0.00     0.00  eftcamb_main_mp_print_eftcamb_header_
+  0.00    125.73     0.00       11     0.00     0.03  modelparams_mp_timeofz_
+  0.00    125.73     0.00       10     0.00    10.18  camb_mp_camb_getresults_
+  0.00    125.73     0.00       10     0.00     0.00  cambmain_mp_calclimberscalcls_
+  0.00    125.73     0.00       10     0.00     0.00  cambmain_mp_getinitpowerarraytens_
+  0.00    125.73     0.00       10     0.00     0.00  cambmain_mp_getlimbertransfers_
+  0.00    125.73     0.00       10     0.00     0.00  cambmain_mp_inittransfer_
+  0.00    125.73     0.00       10     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelinitbackground_
+  0.00    125.73     0.00       10     0.00     0.00  eftcamb_cache_mp_eftcambparametercacheinit_
+  0.00    125.73     0.00       10     0.00     0.00  eftcamb_returntogr_mp_eftcambreturntogr_feedback_
+  0.00    125.73     0.00       10     0.00     0.00  init_massive_nu_
+  0.00    125.73     0.00       10     0.00     0.03  lensing_mp_lens_cls_
+  0.00    125.73     0.00       10     0.00     0.00  massivenu_mp_nu_init_
+  0.00    125.73     0.00       10     0.00     0.00  modeldata_mp_init_limber_
+  0.00    125.73     0.00       10     0.00     0.10  reionization_mp_reionization_init_
+  0.00    125.73     0.00       10     0.00     0.10  reionization_mp_reionization_zrefromoptdepth_
+  0.00    125.73     0.00       10     0.00     0.00  transfer_mp_transfer_allocate_
+  0.00    125.73     0.00        8     0.00     0.00  bispectrum_mp_bispectrum_readparams_
+  0.00    125.73     0.00        8     0.00     0.00  inifile_mp_ini_read_int_file_
+  0.00    125.73     0.00        7     0.00     0.00  inifile_mp_ini_read_string_default_
+  0.00    125.73     0.00        6     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_
+  0.00    125.73     0.00        6     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsetparamnumber_
+  0.00    125.73     0.00        6     0.00     0.00  initialpower_mp_initialpower_readparams_
+  0.00    125.73     0.00        5     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_
+  0.00    125.73     0.00        5     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_
+  0.00    125.73     0.00        4     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dfeedback_
+  0.00    125.73     0.00        4     0.00     0.00  recombination_mp_recombination_readparams_
+  0.00    125.73     0.00        3     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dinitparams_
+  0.00    125.73     0.00        3     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_
+  0.00    125.73     0.00        3     0.00     0.00  inifile_mp_tnamevaluelist_setcapacity_
+  0.00    125.73     0.00        3     0.00     0.00  modeldata_mp_free_cltransfer_
+  0.00    125.73     0.00        3     0.00     0.00  modeldata_mp_free_limber_
+  0.00    125.73     0.00        2     0.00     0.00  camb_mp_camb_validateparams_
+  0.00    125.73     0.00        2     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsetparamnumber_
+  0.00    125.73     0.00        2     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dparametervalues_
+  0.00    125.73     0.00        2     0.00     0.00  inifile_mp_ini_open_
+  0.00    125.73     0.00        2     0.00     0.00  inifile_mp_ini_read_string_array_
+  0.00    125.73     0.00        1     0.00   101.77  MAIN__
+  0.00    125.73     0.00        1     0.00     0.00  bispectrum_mp_bispectrum_setdefparams_
+  0.00    125.73     0.00        1     0.00     0.00  camb_mp_camb_setdefparams_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_abstract_model_mp_eftcambmodelinitialize_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparamnumber_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_allocate_eftcamb_model_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_allocate_eftcamb_model_functions_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_init_eftcamb_model_from_file_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_print_eftcamb_flags_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_read_eftcamb_flags_from_file_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_read_eftcamb_model_parameters_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_main_mp_read_eftcamb_model_selection_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dinitparams_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dinitparams_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeparametersnumber_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdinitmodelparametersfromfile_
+  0.00    125.73     0.00        1     0.00     0.00  eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_
+  0.00    125.73     0.00        1     0.00     0.00  inifile_mp_ini_close_file_
+  0.00    125.73     0.00        1     0.00     0.00  inifile_mp_ini_open_file_
+  0.00    125.73     0.00        1     0.00     0.00  inifile_mp_ini_read_double_array_file_
+  0.00    125.73     0.00        1     0.00     0.00  inifile_mp_ini_read_real_file_
+  0.00    125.73     0.00        1     0.00     0.00  inifile_mp_ini_read_string_default_file_
+  0.00    125.73     0.00        1     0.00     0.00  initialpower_mp_setdefpowerparams_
+  0.00    125.73     0.00        1     0.00     0.00  modeldata_mp_modeldata_free_
+  0.00    125.73     0.00        1     0.00     0.01  modelparams_mp_angulardiameterdistance_
+  0.00    125.73     0.00        1     0.00     0.01  modelparams_mp_comovingradialdistance_
+  0.00    125.73     0.00        1     0.00     0.00  recombination_mp_get_init_
+  0.00    125.73     0.00        1     0.00     0.00  reionization_mp_reionization_readparams_
+  0.00    125.73     0.00        1     0.00     0.00  reionization_mp_reionization_validate_
+  0.00    125.73     0.00        1     0.00     0.00  spherbessels_mp_bessels_free_
+  0.00    125.73     0.00        1     0.00     0.00  transfer_mp_transfer_free_
+  0.00    125.73     0.00        1     0.00     0.00  transfer_mp_transfer_sortandindexredshifts_
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 0.01% of 125.73 seconds
+
+index % time    self  children    called     name
+                0.00  101.77      10/10          MAIN__ [2]
+[1]     80.9    0.00  101.77      10         camb_mp_camb_getresults_ [1]
+                0.00   98.78      20/20          cambmain_mp_cmbmain_ [4]
+                0.00    2.66      20/20          modelparams_mp_cambparams_set_ [27]
+                0.00    0.34      10/10          lensing_mp_lens_cls_ [53]
+-----------------------------------------------
+                0.00  101.77       1/1           main [3]
+[2]     80.9    0.00  101.77       1         MAIN__ [2]
+                0.00  101.77      10/10          camb_mp_camb_getresults_ [1]
+                0.00    0.00      21/25          inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00      13/26          thermodata_mp_thermodata_free_ [132]
+                0.00    0.00      13/27          inifile_mp_ini_read_double_file_ [131]
+                0.00    0.00       8/8           inifile_mp_ini_read_int_file_ [149]
+                0.00    0.00       4/7           inifile_mp_ini_read_string_default_ [150]
+                0.00    0.00       3/234         inifile_mp_tnamevaluelist_haskey_ [118]
+                0.00    0.00       2/2           inifile_mp_ini_open_ [166]
+                0.00    0.00       2/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       2/6           initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00       2/2           inifile_mp_ini_read_string_array_ [167]
+                0.00    0.00       2/86          ranges_mp_ranges_free_ [125]
+                0.00    0.00       1/1           camb_mp_camb_setdefparams_ [169]
+                0.00    0.00       1/1           inifile_mp_ini_read_real_file_ [191]
+                0.00    0.00       1/1           eftcamb_main_mp_read_eftcamb_flags_from_file_ [177]
+                0.00    0.00       1/15          eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeparametersnumber_ [184]
+                0.00    0.00       1/1           eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+                0.00    0.00       1/1           eftcamb_main_mp_print_eftcamb_flags_ [176]
+                0.00    0.00       1/1           inifile_mp_ini_read_double_array_file_ [190]
+                0.00    0.00       1/1           transfer_mp_transfer_sortandindexredshifts_ [200]
+                0.00    0.00       1/1           reionization_mp_reionization_readparams_ [196]
+                0.00    0.00       1/4           recombination_mp_recombination_readparams_ [157]
+                0.00    0.00       1/8           bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       1/2           camb_mp_camb_validateparams_ [163]
+                0.00    0.00       1/1           inifile_mp_ini_close_file_ [188]
+                0.00    0.00       1/1           transfer_mp_transfer_free_ [199]
+                0.00    0.00       1/1           modeldata_mp_modeldata_free_ [194]
+                0.00    0.00       1/1           spherbessels_mp_bessels_free_ [198]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     80.9    0.00  101.77                 main [3]
+                0.00  101.77       1/1           MAIN__ [2]
+-----------------------------------------------
+                0.00   98.78      20/20          camb_mp_camb_getresults_ [1]
+[4]     78.6    0.00   98.78      20         cambmain_mp_cmbmain_ [4]
+                0.15   83.20     109/109         cambmain_mp_dosourcek_ [5]
+                0.01    9.52   57700/57700       cambmain_mp_sourcetotransfers_ [13]
+                0.00    4.24      20/20          cambmain_mp_initvars_ [21]
+                0.00    0.80      20/20          cambmain_mp_cltransfertocl_ [41]
+                0.00    0.34      15/15          cambmain_mp_gettransfer_ [54]
+                0.31    0.00      20/20          cambmain_mp_initsourceinterpolation_ [58]
+                0.12    0.03      20/20          spherbessels_mp_initspherbessels_ [63]
+                0.00    0.04      20/20          cambmain_mp_setkvaluesforint_ [79]
+                0.00    0.03      20/20          cambmain_mp_setkvaluesforsources_ [84]
+                0.01    0.00      20/20          transfer_mp_transfer_get_sigmar_ [98]
+                0.00    0.00      20/20          initialpower_mp_initializepowers_ [136]
+                0.00    0.00      20/86          ranges_mp_ranges_free_ [125]
+                0.00    0.00      20/20          cambmain_mp_freesourcemem_ [134]
+                0.00    0.00      20/30          lvalues_mp_initlval_ [129]
+                0.00    0.00      13/162         gaugeinterface_mp_getnumeqns_ [120]
+                0.00    0.00      10/10          modeldata_mp_init_limber_ [146]
+                0.00    0.00      10/10          cambmain_mp_getlimbertransfers_ [141]
+                0.00    0.00      10/10          cambmain_mp_inittransfer_ [142]
+-----------------------------------------------
+                0.15   83.20     109/109         cambmain_mp_cmbmain_ [4]
+[5]     66.3    0.15   83.20     109         cambmain_mp_dosourcek_ [5]
+                0.03   49.65   42548/42548       gaugeinterface_mp_gaugeinterface_evolvetens_ [7]
+                0.05   32.39      81/81          cambmain_mp_calcscalarsources_ [9]
+                0.09    0.99   42900/42900       gaugeinterface_mp_outputt_ [34]
+                0.00    0.00     149/162         gaugeinterface_mp_getnumeqns_ [120]
+                0.00    0.00      50/50          gaugeinterface_mp_initialt_ [127]
+-----------------------------------------------
+                0.42    2.94    2814/69349       recombination_mp_recombination_init_ [24]
+                3.70   26.11   24966/69349       gaugeinterface_mp_gaugeinterface_scalev_ [11]
+                6.17   43.48   41569/69349       gaugeinterface_mp_gaugeinterface_evolvetens_ [7]
+[6]     65.9   10.29   72.54   69349         dverk_ [6]
+               29.34   18.27 2849638/2875608     gaugeinterface_mp_derivs_ [8]
+               21.10    3.80 1167827/1214451     gaugeinterface_mp_derivst_ [12]
+                0.00    0.03   30353/30353       recombination_mp_ion_ [80]
+-----------------------------------------------
+                0.03   49.65   42548/42548       cambmain_mp_dosourcek_ [5]
+[7]     39.5    0.03   49.65   42548         gaugeinterface_mp_gaugeinterface_evolvetens_ [7]
+                6.17   43.48   41569/69349       dverk_ [6]
+                0.00    0.00      29/29          gaugeinterface_mp_copytensorvariablearray_ [130]
+-----------------------------------------------
+                0.00    0.00      17/2875608     cambmain_mp_gettransfer_ [54]
+                0.00    0.00      34/2875608     gaugeinterface_mp_switchtomassivenuapprox_ [103]
+                0.00    0.00      56/2875608     cambmain_mp_calcscalarsources_ [9]
+                0.00    0.00     241/2875608     gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.26    0.16   25622/2875608     gaugeinterface_mp_output_ [42]
+               29.34   18.27 2849638/2875608     dverk_ [6]
+[8]     38.2   29.61   18.44 2875608         gaugeinterface_mp_derivs_ [8]
+                9.10    0.00 2792463/2792463     gaugeinterface_mp_massivenuvars_ [14]
+                2.26    1.44 4757980/7223049     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.94    1.60 7640762/11092097     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+                1.02    0.32 3348788/4972593     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.97    0.11 3371933/5071849     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+                0.63    0.00 7373450/10672609     eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [40]
+                0.05    0.00   68284/68316       thermodata_mp_thermo_ [76]
+                0.00    0.00      77/23842       gaugeinterface_mp_massivenuvarsout_ [64]
+-----------------------------------------------
+                0.05   32.39      81/81          cambmain_mp_dosourcek_ [5]
+[9]     25.8    0.05   32.39      81         cambmain_mp_calcscalarsources_ [9]
+                0.08   29.83   23886/23889       gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.11    1.64      58/69          gaugeinterface_mp_initial_ [29]
+                0.16    0.57   24421/24421       gaugeinterface_mp_output_ [42]
+                0.00    0.00      56/2875608     gaugeinterface_mp_derivs_ [8]
+-----------------------------------------------
+                                 275             gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.00    0.00       3/23889       cambmain_mp_gettransfer_ [54]
+                0.08   29.83   23886/23889       cambmain_mp_calcscalarsources_ [9]
+[10]    23.8    0.08   29.83   23889+275     gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.01   29.82   24016/24016       gaugeinterface_mp_gaugeinterface_scalev_ [11]
+                0.00    0.00     241/2875608     gaugeinterface_mp_derivs_ [8]
+                0.00    0.00      37/37          gaugeinterface_mp_switchtomassivenuapprox_ [103]
+                0.00    0.00      32/68316       thermodata_mp_thermo_ [76]
+                0.00    0.00     324/374         gaugeinterface_mp_copyscalarvariablearray_ [116]
+                                 275             gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+-----------------------------------------------
+                0.01   29.82   24016/24016       gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+[11]    23.7    0.01   29.82   24016         gaugeinterface_mp_gaugeinterface_scalev_ [11]
+                3.70   26.11   24966/69349       dverk_ [6]
+-----------------------------------------------
+                0.84    0.15   46624/1214451     gaugeinterface_mp_outputt_ [34]
+               21.10    3.80 1167827/1214451     dverk_ [6]
+[12]    20.6   21.94    3.95 1214451         gaugeinterface_mp_derivst_ [12]
+                1.02    0.65 2155069/7223049     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.39    0.66 3141335/11092097     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+                0.40    0.12 1313805/4972593     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.40    0.05 1389916/5071849     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+                0.25    0.00 2989159/10672609     eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [40]
+-----------------------------------------------
+                0.01    9.52   57700/57700       cambmain_mp_cmbmain_ [4]
+[13]     7.6    0.01    9.52   57700         cambmain_mp_sourcetotransfers_ [13]
+                7.42    0.00   57841/57841       cambmain_mp_doflatintegration_ [16]
+                2.10    0.00   58096/58096       cambmain_mp_interpolatesources_ [28]
+                0.00    0.00   57416/57416       cambmain_mp_integrationvars_init_ [111]
+-----------------------------------------------
+                9.10    0.00 2792463/2792463     gaugeinterface_mp_derivs_ [8]
+[14]     7.2    9.10    0.00 2792463         gaugeinterface_mp_massivenuvars_ [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     6.6    8.31    0.00                 __libm_pow_e7 [15]
+-----------------------------------------------
+                7.42    0.00   57841/57841       cambmain_mp_sourcetotransfers_ [13]
+[16]     5.9    7.42    0.00   57841         cambmain_mp_doflatintegration_ [16]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]     4.8    5.99    0.00                 __libm_log_e7 [17]
+-----------------------------------------------
+                0.00    0.00   10000/7223049     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.14    0.09  300000/7223049     eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                1.02    0.65 2155069/7223049     gaugeinterface_mp_derivst_ [12]
+                2.26    1.44 4757980/7223049     gaugeinterface_mp_derivs_ [8]
+[18]     4.5    3.43    2.19 7223049         eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.76    0.00 20810131/27220605     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dfirstderivative_ [35]
+                0.71    0.00 53286199/70931560     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_ [39]
+                0.33    0.00 8784524/8784524     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsecondderivative_ [56]
+                0.14    0.00 8922945/8922945     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dthirdderivative_ [65]
+                0.13    0.00 8425843/32966903     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dfirstderivative_ [47]
+                0.11    0.00 8246333/32180108     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dvalue_ [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[19]     3.7    4.68    0.00                 __libm_exp_e7 [19]
+-----------------------------------------------
+                0.00    0.00      21/4206443     recombination_mp_recombination_init_ [24]
+                0.00    0.00      82/4206443     gaugeinterface_mp_outputt_ [34]
+                0.00    0.00      99/4206443     modelparams_mp_dsound_da_exact_ [106]
+                0.00    0.00     257/4206443     thermodata_mp_ddamping_da_ [105]
+                0.00    0.00     257/4206443     modelparams_mp_dtda_ [104]
+                0.00    0.00     660/4206443     gaugeinterface_mp_gaugeinterface_init_ [99]
+                0.00    0.00    3220/4206443     reionization_mp_reionization_init_ [36]
+                0.00    0.00    3280/4206443     modelparams_mp_deltatime_ [100]
+                0.00    0.01    7481/4206443     thermodata_mp_ddragoptdepth_dz_ [96]
+                0.00    0.01    8193/4206443     modelparams_mp_comovingradialdistance_ [95]
+                0.00    0.02   19769/4206443     gaugeinterface_mp_massivenuvarsout_ [64]
+                0.01    0.02   30353/4206443     recombination_mp_ion_ [80]
+                0.07    0.24  300000/4206443     eftcamb_stability_mp_eftteststability_ [33]
+                0.07    0.27  327690/4206443     cambmain_mp_initvars_ [21]
+                0.07    0.27  327723/4206443     modelparams_mp_timeofz_ [51]
+                0.09    0.32  399982/4206443     thermodata_mp_inithermo_ [22]
+                0.21    0.73  901310/4206443     reionization_mp_reionization_doptdepth_dz_ [37]
+                0.43    1.52 1876066/4206443     gaugeinterface_mp_initial_ [29]
+[20]     3.5    0.96    3.41 4206443         dtauda_ [20]
+                3.05    0.00 4189928/4499928     eftcamb_cache_mp_eftcambtimestepcacheinit_ [25]
+                0.22    0.14 4023023/4023023     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputedtauda_ [50]
+-----------------------------------------------
+                0.00    4.24      20/20          cambmain_mp_cmbmain_ [4]
+[21]     3.4    0.00    4.24      20         cambmain_mp_initvars_ [21]
+                0.03    3.86      20/20          thermodata_mp_inithermo_ [22]
+                0.07    0.27  327690/4206443     dtauda_ [20]
+                0.00    0.00      20/20          gaugeinterface_mp_gaugeinterface_init_ [99]
+-----------------------------------------------
+                0.03    3.86      20/20          cambmain_mp_initvars_ [21]
+[22]     3.1    0.03    3.86      20         thermodata_mp_inithermo_ [22]
+                0.00    3.36      20/20          recombination_mp_recombination_init_ [24]
+                0.09    0.32  399982/4206443     dtauda_ [20]
+                0.00    0.03       1/11          modelparams_mp_timeofz_ [51]
+                0.02    0.00     100/106         splder_ [87]
+                0.00    0.02      20/20          thermodata_mp_settimesteps_ [88]
+                0.00    0.01       1/1           modelparams_mp_angulardiameterdistance_ [94]
+                0.00    0.01      57/57          thermodata_mp_dragoptdepth_ [97]
+                0.00    0.00     257/257         modelparams_mp_dtda_ [104]
+                0.00    0.00     257/257         thermodata_mp_ddamping_da_ [105]
+                0.00    0.00      99/99          modelparams_mp_dsound_da_exact_ [106]
+                0.00    0.00    3385/3385        thermodata_mp_dothermospline_ [115]
+-----------------------------------------------
+                0.00    0.00   10000/11092097     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.04    0.06  300000/11092097     eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.39    0.66 3141335/11092097     gaugeinterface_mp_derivst_ [12]
+                0.94    1.60 7640762/11092097     gaugeinterface_mp_derivs_ [8]
+[23]     2.9    1.37    2.32 11092097         eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+                0.63    0.00 12240220/12240220     eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfirstderivative_ [44]
+                0.63    0.00 10936084/10936084     eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsecondderivative_ [45]
+                0.37    0.00 12715816/12715816     eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dvalue_ [49]
+                0.36    0.00 24541060/32966903     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dfirstderivative_ [47]
+                0.33    0.00 23933775/32180108     eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dvalue_ [48]
+-----------------------------------------------
+                0.00    3.36      20/20          thermodata_mp_inithermo_ [22]
+[24]     2.7    0.00    3.36      20         recombination_mp_recombination_init_ [24]
+                0.42    2.94    2814/69349       dverk_ [6]
+                0.00    0.00      21/4206443     dtauda_ [20]
+                0.00    0.00       1/1           recombination_mp_get_init_ [195]
+-----------------------------------------------
+                0.01    0.00   10000/4499928     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.22    0.00  300000/4499928     eftcamb_stability_mp_eftteststability_ [33]
+                3.05    0.00 4189928/4499928     dtauda_ [20]
+[25]     2.6    3.28    0.00 4499928         eftcamb_cache_mp_eftcambtimestepcacheinit_ [25]
+-----------------------------------------------
+                                                 <spontaneous>
+[26]     2.5    3.17    0.00                 __intel_ssse3_rep_memcpy [26]
+-----------------------------------------------
+                0.00    2.66      20/20          camb_mp_camb_getresults_ [1]
+[27]     2.1    0.00    2.66      20         modelparams_mp_cambparams_set_ [27]
+                0.01    1.35      10/10          eftcamb_stability_mp_eftcamb_stability_check_ [32]
+                0.00    0.96      10/10          reionization_mp_reionization_init_ [36]
+                0.00    0.31      10/11          modelparams_mp_timeofz_ [51]
+                0.00    0.03   10000/10000       eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.00    0.00      10/10          init_massive_nu_ [101]
+                0.00    0.00      10/10          eftcamb_abstract_model_mp_eftcambmodelinitbackground_ [143]
+                0.00    0.00      10/10          eftcamb_returntogr_mp_eftcambreturntogr_feedback_ [145]
+                0.00    0.00      10/10          eftcamb_cache_mp_eftcambparametercacheinit_ [144]
+-----------------------------------------------
+                2.10    0.00   58096/58096       cambmain_mp_sourcetotransfers_ [13]
+[28]     1.7    2.10    0.00   58096         cambmain_mp_interpolatesources_ [28]
+-----------------------------------------------
+                0.02    0.31      11/69          cambmain_mp_gettransfer_ [54]
+                0.11    1.64      58/69          cambmain_mp_calcscalarsources_ [9]
+[29]     1.7    0.13    1.95      69         gaugeinterface_mp_initial_ [29]
+                0.43    1.52 1876066/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.00   10000/4972593     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.09    0.03  300000/4972593     eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.40    0.12 1313805/4972593     gaugeinterface_mp_derivst_ [12]
+                1.02    0.32 3348788/4972593     gaugeinterface_mp_derivs_ [8]
+[30]     1.6    1.52    0.47 4972593         eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.24    0.00 6410474/27220605     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dfirstderivative_ [35]
+                0.23    0.00 17345361/70931560     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_ [39]
+-----------------------------------------------
+                0.00    0.00   10000/5071849     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.09    0.01  300000/5071849     eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.40    0.05 1389916/5071849     gaugeinterface_mp_derivst_ [12]
+                0.97    0.11 3371933/5071849     gaugeinterface_mp_derivs_ [8]
+[31]     1.3    1.46    0.17 5071849         eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+                0.17    0.00 5470023/9900228     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dintegral_ [57]
+-----------------------------------------------
+                0.01    1.35      10/10          modelparams_mp_cambparams_set_ [27]
+[32]     1.1    0.01    1.35      10         eftcamb_stability_mp_eftcamb_stability_check_ [32]
+                0.01    1.34  300000/300000      eftcamb_stability_mp_eftteststability_ [33]
+-----------------------------------------------
+                0.01    1.34  300000/300000      eftcamb_stability_mp_eftcamb_stability_check_ [32]
+[33]     1.1    0.01    1.34  300000         eftcamb_stability_mp_eftteststability_ [33]
+                0.03    0.66  300000/300000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.07    0.24  300000/4206443     dtauda_ [20]
+                0.22    0.00  300000/4499928     eftcamb_cache_mp_eftcambtimestepcacheinit_ [25]
+                0.09    0.00  300000/300000      eftcamb_pure_eft_std_mp_eftcambpureeftstdadditionalmodelstability_ [70]
+                0.03    0.00  300000/300000      eftcamb_cache_mp_eftcambtimestepcacheisnan_ [82]
+-----------------------------------------------
+                0.09    0.99   42900/42900       cambmain_mp_dosourcek_ [5]
+[34]     0.9    0.09    0.99   42900         gaugeinterface_mp_outputt_ [34]
+                0.84    0.15   46624/1214451     gaugeinterface_mp_derivst_ [12]
+                0.00    0.00      82/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.24    0.00 6410474/27220605     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.76    0.00 20810131/27220605     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+[35]     0.8    1.00    0.00 27220605         eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dfirstderivative_ [35]
+-----------------------------------------------
+                0.00    0.96      10/10          modelparams_mp_cambparams_set_ [27]
+[36]     0.8    0.00    0.96      10         reionization_mp_reionization_init_ [36]
+                0.00    0.96      10/10          reionization_mp_reionization_zrefromoptdepth_ [38]
+                0.00    0.00    3220/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.02    0.94  901310/901310      reionization_mp_reionization_zrefromoptdepth_ [38]
+[37]     0.8    0.02    0.94  901310         reionization_mp_reionization_doptdepth_dz_ [37]
+                0.21    0.73  901310/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.96      10/10          reionization_mp_reionization_init_ [36]
+[38]     0.8    0.00    0.96      10         reionization_mp_reionization_zrefromoptdepth_ [38]
+                0.02    0.94  901310/901310      reionization_mp_reionization_doptdepth_dz_ [37]
+-----------------------------------------------
+                0.00    0.00  300000/70931560     eftcamb_pure_eft_std_mp_eftcambpureeftstdadditionalmodelstability_ [70]
+                0.23    0.00 17345361/70931560     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.71    0.00 53286199/70931560     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+[39]     0.8    0.95    0.00 70931560         eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_ [39]
+-----------------------------------------------
+                0.00    0.00   10000/10672609     eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.03    0.00  300000/10672609     eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.25    0.00 2989159/10672609     gaugeinterface_mp_derivst_ [12]
+                0.63    0.00 7373450/10672609     gaugeinterface_mp_derivs_ [8]
+[40]     0.7    0.91    0.00 10672609         eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [40]
+-----------------------------------------------
+                0.00    0.80      20/20          cambmain_mp_cmbmain_ [4]
+[41]     0.6    0.00    0.80      20         cambmain_mp_cltransfertocl_ [41]
+                0.56    0.00      10/10          cambmain_mp_calctenscls_ [46]
+                0.24    0.00      10/10          cambmain_mp_calcscalcls_ [60]
+                0.00    0.00      20/20          modeldata_mp_init_cls_ [137]
+                0.00    0.00      20/20          cambmain_mp_interpolatecls_ [135]
+                0.00    0.00      10/10          cambmain_mp_calclimberscalcls_ [139]
+-----------------------------------------------
+                0.16    0.57   24421/24421       cambmain_mp_calcscalarsources_ [9]
+[42]     0.6    0.16    0.57   24421         gaugeinterface_mp_output_ [42]
+                0.26    0.16   25622/2875608     gaugeinterface_mp_derivs_ [8]
+                0.12    0.02   23765/23842       gaugeinterface_mp_massivenuvarsout_ [64]
+-----------------------------------------------
+                0.03    0.66  300000/300000      eftcamb_stability_mp_eftteststability_ [33]
+[43]     0.5    0.03    0.66  300000         eftcamb_stability_mp_eftstabilitycomputation_ [43]
+                0.14    0.09  300000/7223049     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.09    0.03  300000/4972593     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.04    0.06  300000/11092097     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+                0.09    0.01  300000/5071849     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+                0.07    0.00  300000/300000      eftcamb_abstract_model_mp_eftcambmodelcomputepifactors_ [73]
+                0.03    0.00  300000/10672609     eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [40]
+                0.01    0.00  300000/300000      eftcamb_abstract_model_mp_eftcambmodelcomputestabilityfactors_ [89]
+                0.00    0.00  600000/620018      massivenu_mp_nu_background_ [107]
+                0.00    0.00  300000/310000      massivenu_mp_nu_drho_ [108]
+                0.00    0.00  300000/310000      massivenu_mp_nu_pidot_ [109]
+                0.00    0.00  300000/300000      eftcamb_abstract_model_mp_eftcambmodelcomputetensorfactors_ [110]
+-----------------------------------------------
+                0.63    0.00 12240220/12240220     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+[44]     0.5    0.63    0.00 12240220         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfirstderivative_ [44]
+-----------------------------------------------
+                0.63    0.00 10936084/10936084     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+[45]     0.5    0.63    0.00 10936084         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsecondderivative_ [45]
+-----------------------------------------------
+                0.56    0.00      10/10          cambmain_mp_cltransfertocl_ [41]
+[46]     0.4    0.56    0.00      10         cambmain_mp_calctenscls_ [46]
+                0.00    0.00      10/10          cambmain_mp_getinitpowerarraytens_ [140]
+-----------------------------------------------
+                0.13    0.00 8425843/32966903     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.36    0.00 24541060/32966903     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+[47]     0.4    0.49    0.00 32966903         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dfirstderivative_ [47]
+-----------------------------------------------
+                0.11    0.00 8246333/32180108     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.33    0.00 23933775/32180108     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+[48]     0.3    0.44    0.00 32180108         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dvalue_ [48]
+-----------------------------------------------
+                0.37    0.00 12715816/12715816     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+[49]     0.3    0.37    0.00 12715816         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dvalue_ [49]
+-----------------------------------------------
+                0.22    0.14 4023023/4023023     dtauda_ [20]
+[50]     0.3    0.22    0.14 4023023         eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputedtauda_ [50]
+                0.14    0.00 4430205/9900228     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dintegral_ [57]
+-----------------------------------------------
+                0.00    0.03       1/11          thermodata_mp_inithermo_ [22]
+                0.00    0.31      10/11          modelparams_mp_cambparams_set_ [27]
+[51]     0.3    0.00    0.34      11         modelparams_mp_timeofz_ [51]
+                0.07    0.27  327723/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.34    0.00      10/10          lensing_mp_lens_cls_ [53]
+[52]     0.3    0.34    0.00      10         lensing_mp_corrfuncfullskyimpl_ [52]
+-----------------------------------------------
+                0.00    0.34      10/10          camb_mp_camb_getresults_ [1]
+[53]     0.3    0.00    0.34      10         lensing_mp_lens_cls_ [53]
+                0.34    0.00      10/10          lensing_mp_corrfuncfullskyimpl_ [52]
+                0.00    0.00      10/30          lvalues_mp_initlval_ [129]
+-----------------------------------------------
+                0.00    0.34      15/15          cambmain_mp_cmbmain_ [4]
+[54]     0.3    0.00    0.34      15         cambmain_mp_gettransfer_ [54]
+                0.02    0.31      11/69          gaugeinterface_mp_initial_ [29]
+                0.00    0.00       3/23889       gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.00    0.00      17/2875608     gaugeinterface_mp_derivs_ [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[55]     0.3    0.33    0.00                 __libm_logf_dispatch_table_init [55]
+-----------------------------------------------
+                0.33    0.00 8784524/8784524     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+[56]     0.3    0.33    0.00 8784524         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsecondderivative_ [56]
+-----------------------------------------------
+                0.14    0.00 4430205/9900228     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputedtauda_ [50]
+                0.17    0.00 5470023/9900228     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+[57]     0.2    0.31    0.00 9900228         eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dintegral_ [57]
+-----------------------------------------------
+                0.31    0.00      20/20          cambmain_mp_cmbmain_ [4]
+[58]     0.2    0.31    0.00      20         cambmain_mp_initsourceinterpolation_ [58]
+-----------------------------------------------
+                                                 <spontaneous>
+[59]     0.2    0.30    0.00                 __libm_powf_dispatch_table_init [59]
+-----------------------------------------------
+                0.24    0.00      10/10          cambmain_mp_cltransfertocl_ [41]
+[60]     0.2    0.24    0.00      10         cambmain_mp_calcscalcls_ [60]
+                0.00    0.00   38020/42100       initialpower_mp_scalarpower_ [112]
+-----------------------------------------------
+                                                 <spontaneous>
+[61]     0.2    0.19    0.00                 __libm_pow_l9 [61]
+-----------------------------------------------
+                                                 <spontaneous>
+[62]     0.1    0.17    0.00                 eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsecondderivative_ [62]
+-----------------------------------------------
+                0.12    0.03      20/20          cambmain_mp_cmbmain_ [4]
+[63]     0.1    0.12    0.03      20         spherbessels_mp_initspherbessels_ [63]
+                0.03    0.00  152697/152697      spherbessels_mp_bjl_ [83]
+                0.00    0.00       5/185         ranges_mp_ranges_add_ [119]
+                0.00    0.00       1/86          ranges_mp_ranges_free_ [125]
+-----------------------------------------------
+                0.00    0.00      77/23842       gaugeinterface_mp_derivs_ [8]
+                0.12    0.02   23765/23842       gaugeinterface_mp_output_ [42]
+[64]     0.1    0.12    0.02   23842         gaugeinterface_mp_massivenuvarsout_ [64]
+                0.00    0.02   19769/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.14    0.00 8922945/8922945     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+[65]     0.1    0.14    0.00 8922945         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dthirdderivative_ [65]
+-----------------------------------------------
+                                                 <spontaneous>
+[66]     0.1    0.13    0.00                 __libm_expf_dispatch_table_init [66]
+-----------------------------------------------
+                                                 <spontaneous>
+[67]     0.1    0.12    0.00                 __libm_log_l9 [67]
+-----------------------------------------------
+                                                 <spontaneous>
+[68]     0.1    0.11    0.00                 __libm_exp_l9 [68]
+-----------------------------------------------
+                                                 <spontaneous>
+[69]     0.1    0.10    0.00                 eftcamb_cpl_parametrizations_1d_mp_cplparametrized1dsetparamnumber_ [69]
+-----------------------------------------------
+                0.09    0.00  300000/300000      eftcamb_stability_mp_eftteststability_ [33]
+[70]     0.1    0.09    0.00  300000         eftcamb_pure_eft_std_mp_eftcambpureeftstdadditionalmodelstability_ [70]
+                0.00    0.00  300000/70931560     eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_ [39]
+-----------------------------------------------
+                0.02    0.00      20/90          thermodata_mp_settimesteps_ [88]
+                0.03    0.00      30/90          cambmain_mp_setkvaluesforsources_ [84]
+                0.04    0.00      40/90          cambmain_mp_setkvaluesforint_ [79]
+[71]     0.1    0.08    0.00      90         modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      50/185         ranges_mp_ranges_add_ [119]
+                0.00    0.00      20/40          ranges_mp_ranges_getdpoints_ [128]
+-----------------------------------------------
+                                                 <spontaneous>
+[72]     0.1    0.08    0.00                 __intel_memset [72]
+-----------------------------------------------
+                0.07    0.00  300000/300000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[73]     0.1    0.07    0.00  300000         eftcamb_abstract_model_mp_eftcambmodelcomputepifactors_ [73]
+-----------------------------------------------
+                                                 <spontaneous>
+[74]     0.0    0.06    0.00                 for_fp_class_t_ [74]
+-----------------------------------------------
+                                                 <spontaneous>
+[75]     0.0    0.05    0.00                 eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dthirdderivative_ [75]
+-----------------------------------------------
+                0.00    0.00      32/68316       gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+                0.05    0.00   68284/68316       gaugeinterface_mp_derivs_ [8]
+[76]     0.0    0.05    0.00   68316         thermodata_mp_thermo_ [76]
+-----------------------------------------------
+                                                 <spontaneous>
+[77]     0.0    0.04    0.00                 eftcamb_abstract_model_mp_eftcambmodelcomputeeinsteinfactors_ [77]
+-----------------------------------------------
+                                                 <spontaneous>
+[78]     0.0    0.04    0.00                 gaugeinterface_mp_initialv_ [78]
+-----------------------------------------------
+                0.00    0.04      20/20          cambmain_mp_cmbmain_ [4]
+[79]     0.0    0.00    0.04      20         cambmain_mp_setkvaluesforint_ [79]
+                0.04    0.00      40/90          modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      50/185         ranges_mp_ranges_add_ [119]
+                0.00    0.00      20/86          ranges_mp_ranges_free_ [125]
+-----------------------------------------------
+                0.00    0.03   30353/30353       dverk_ [6]
+[80]     0.0    0.00    0.03   30353         recombination_mp_ion_ [80]
+                0.01    0.02   30353/4206443     dtauda_ [20]
+-----------------------------------------------
+                                                 <spontaneous>
+[81]     0.0    0.03    0.00                 eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dintegral_ [81]
+-----------------------------------------------
+                0.03    0.00  300000/300000      eftcamb_stability_mp_eftteststability_ [33]
+[82]     0.0    0.03    0.00  300000         eftcamb_cache_mp_eftcambtimestepcacheisnan_ [82]
+-----------------------------------------------
+                0.03    0.00  152697/152697      spherbessels_mp_initspherbessels_ [63]
+[83]     0.0    0.03    0.00  152697         spherbessels_mp_bjl_ [83]
+-----------------------------------------------
+                0.00    0.03      20/20          cambmain_mp_cmbmain_ [4]
+[84]     0.0    0.00    0.03      20         cambmain_mp_setkvaluesforsources_ [84]
+                0.03    0.00      30/90          modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      40/185         ranges_mp_ranges_add_ [119]
+                0.00    0.00      20/86          ranges_mp_ranges_free_ [125]
+-----------------------------------------------
+                0.00    0.03   10000/10000       modelparams_mp_cambparams_set_ [27]
+[85]     0.0    0.00    0.03   10000         eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.00    0.00   10000/7223049     eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [18]
+                0.01    0.00   10000/4499928     eftcamb_cache_mp_eftcambtimestepcacheinit_ [25]
+                0.00    0.00   10000/4972593     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [30]
+                0.00    0.00   10000/11092097     eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [23]
+                0.00    0.00   10000/5071849     eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [31]
+                0.00    0.00   10000/10672609     eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [40]
+                0.00    0.00   20000/620018      massivenu_mp_nu_background_ [107]
+                0.00    0.00   10000/310000      massivenu_mp_nu_drho_ [108]
+                0.00    0.00   10000/310000      massivenu_mp_nu_pidot_ [109]
+-----------------------------------------------
+                                                 <spontaneous>
+[86]     0.0    0.03    0.00                 for_is_nan_t_ [86]
+-----------------------------------------------
+                0.00    0.00       6/106         massivenu_mp_nu_init_ [102]
+                0.02    0.00     100/106         thermodata_mp_inithermo_ [22]
+[87]     0.0    0.02    0.00     106         splder_ [87]
+-----------------------------------------------
+                0.00    0.02      20/20          thermodata_mp_inithermo_ [22]
+[88]     0.0    0.00    0.02      20         thermodata_mp_settimesteps_ [88]
+                0.02    0.00      20/90          modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      40/185         ranges_mp_ranges_add_ [119]
+                0.00    0.00      20/86          ranges_mp_ranges_free_ [125]
+                0.00    0.00      20/40          ranges_mp_ranges_getdpoints_ [128]
+-----------------------------------------------
+                0.01    0.00  300000/300000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[89]     0.0    0.01    0.00  300000         eftcamb_abstract_model_mp_eftcambmodelcomputestabilityfactors_ [89]
+-----------------------------------------------
+                                                 <spontaneous>
+[90]     0.0    0.01    0.00                 do_alloc_copy [90]
+-----------------------------------------------
+                                                 <spontaneous>
+[91]     0.0    0.01    0.00                 __libm_acos_ex [91]
+-----------------------------------------------
+                                                 <spontaneous>
+[92]     0.0    0.01    0.00                 __libm_cos_y8 [92]
+-----------------------------------------------
+                                                 <spontaneous>
+[93]     0.0    0.01    0.00                 __libm_sse2_sincos [93]
+-----------------------------------------------
+                0.00    0.01       1/1           thermodata_mp_inithermo_ [22]
+[94]     0.0    0.00    0.01       1         modelparams_mp_angulardiameterdistance_ [94]
+                0.00    0.01       1/1           modelparams_mp_comovingradialdistance_ [95]
+-----------------------------------------------
+                0.00    0.01       1/1           modelparams_mp_angulardiameterdistance_ [94]
+[95]     0.0    0.00    0.01       1         modelparams_mp_comovingradialdistance_ [95]
+                0.00    0.01    8193/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.01    7481/7481        thermodata_mp_dragoptdepth_ [97]
+[96]     0.0    0.00    0.01    7481         thermodata_mp_ddragoptdepth_dz_ [96]
+                0.00    0.01    7481/4206443     dtauda_ [20]
+                0.00    0.00    7481/7738        recombination_mp_recombination_xe_ [114]
+-----------------------------------------------
+                0.00    0.01      57/57          thermodata_mp_inithermo_ [22]
+[97]     0.0    0.00    0.01      57         thermodata_mp_dragoptdepth_ [97]
+                0.00    0.01    7481/7481        thermodata_mp_ddragoptdepth_dz_ [96]
+-----------------------------------------------
+                0.01    0.00      20/20          cambmain_mp_cmbmain_ [4]
+[98]     0.0    0.01    0.00      20         transfer_mp_transfer_get_sigmar_ [98]
+                0.00    0.00    4080/42100       initialpower_mp_scalarpower_ [112]
+-----------------------------------------------
+                0.00    0.00      20/20          cambmain_mp_initvars_ [21]
+[99]     0.0    0.00    0.00      20         gaugeinterface_mp_gaugeinterface_init_ [99]
+                0.00    0.00      80/80          modelparams_mp_deltatime_ [100]
+                0.00    0.00     660/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.00      80/80          gaugeinterface_mp_gaugeinterface_init_ [99]
+[100]    0.0    0.00    0.00      80         modelparams_mp_deltatime_ [100]
+                0.00    0.00    3280/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.00      10/10          modelparams_mp_cambparams_set_ [27]
+[101]    0.0    0.00    0.00      10         init_massive_nu_ [101]
+                0.00    0.00      10/10          massivenu_mp_nu_init_ [102]
+-----------------------------------------------
+                0.00    0.00      10/10          init_massive_nu_ [101]
+[102]    0.0    0.00    0.00      10         massivenu_mp_nu_init_ [102]
+                0.00    0.00       6/106         splder_ [87]
+-----------------------------------------------
+                0.00    0.00      37/37          gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+[103]    0.0    0.00    0.00      37         gaugeinterface_mp_switchtomassivenuapprox_ [103]
+                0.00    0.00      34/2875608     gaugeinterface_mp_derivs_ [8]
+                0.00    0.00      50/374         gaugeinterface_mp_copyscalarvariablearray_ [116]
+                0.00    0.00      18/620018      massivenu_mp_nu_background_ [107]
+-----------------------------------------------
+                0.00    0.00     257/257         thermodata_mp_inithermo_ [22]
+[104]    0.0    0.00    0.00     257         modelparams_mp_dtda_ [104]
+                0.00    0.00     257/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.00     257/257         thermodata_mp_inithermo_ [22]
+[105]    0.0    0.00    0.00     257         thermodata_mp_ddamping_da_ [105]
+                0.00    0.00     257/4206443     dtauda_ [20]
+                0.00    0.00     257/7738        recombination_mp_recombination_xe_ [114]
+-----------------------------------------------
+                0.00    0.00      99/99          thermodata_mp_inithermo_ [22]
+[106]    0.0    0.00    0.00      99         modelparams_mp_dsound_da_exact_ [106]
+                0.00    0.00      99/4206443     dtauda_ [20]
+-----------------------------------------------
+                0.00    0.00      18/620018      gaugeinterface_mp_switchtomassivenuapprox_ [103]
+                0.00    0.00   20000/620018      eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.00    0.00  600000/620018      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[107]    0.0    0.00    0.00  620018         massivenu_mp_nu_background_ [107]
+-----------------------------------------------
+                0.00    0.00   10000/310000      eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.00    0.00  300000/310000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[108]    0.0    0.00    0.00  310000         massivenu_mp_nu_drho_ [108]
+-----------------------------------------------
+                0.00    0.00   10000/310000      eftcamb_returntogr_mp_eftcambreturntogr_functions_ [85]
+                0.00    0.00  300000/310000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[109]    0.0    0.00    0.00  310000         massivenu_mp_nu_pidot_ [109]
+-----------------------------------------------
+                0.00    0.00  300000/300000      eftcamb_stability_mp_eftstabilitycomputation_ [43]
+[110]    0.0    0.00    0.00  300000         eftcamb_abstract_model_mp_eftcambmodelcomputetensorfactors_ [110]
+-----------------------------------------------
+                0.00    0.00   57416/57416       cambmain_mp_sourcetotransfers_ [13]
+[111]    0.0    0.00    0.00   57416         cambmain_mp_integrationvars_init_ [111]
+-----------------------------------------------
+                0.00    0.00    4080/42100       transfer_mp_transfer_get_sigmar_ [98]
+                0.00    0.00   38020/42100       cambmain_mp_calcscalcls_ [60]
+[112]    0.0    0.00    0.00   42100         initialpower_mp_scalarpower_ [112]
+-----------------------------------------------
+                0.00    0.00   22010/22010       cambmain_mp_getinitpowerarraytens_ [140]
+[113]    0.0    0.00    0.00   22010         initialpower_mp_tensorpower_ [113]
+-----------------------------------------------
+                0.00    0.00     257/7738        thermodata_mp_ddamping_da_ [105]
+                0.00    0.00    7481/7738        thermodata_mp_ddragoptdepth_dz_ [96]
+[114]    0.0    0.00    0.00    7738         recombination_mp_recombination_xe_ [114]
+-----------------------------------------------
+                0.00    0.00    3385/3385        thermodata_mp_inithermo_ [22]
+[115]    0.0    0.00    0.00    3385         thermodata_mp_dothermospline_ [115]
+-----------------------------------------------
+                0.00    0.00      50/374         gaugeinterface_mp_switchtomassivenuapprox_ [103]
+                0.00    0.00     324/374         gaugeinterface_mp_gaugeinterface_evolvescal_ [10]
+[116]    0.0    0.00    0.00     374         gaugeinterface_mp_copyscalarvariablearray_ [116]
+-----------------------------------------------
+                0.00    0.00       1/240         inifile_mp_ini_open_ [166]
+                0.00    0.00     239/240         inifile_mp_ini_open_file_ [189]
+[117]    0.0    0.00    0.00     240         inifile_mp_ini_namevalue_add_ [117]
+                0.00    0.00     117/117         inifile_mp_tnamevaluelist_add_ [122]
+-----------------------------------------------
+                0.00    0.00       1/234         inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00       1/234         camb_mp_camb_validateparams_ [163]
+                0.00    0.00       1/234         inifile_mp_ini_read_string_default_file_ [192]
+                0.00    0.00       1/234         inifile_mp_ini_open_file_ [189]
+                0.00    0.00       2/234         initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00       2/234         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [151]
+                0.00    0.00       3/234         MAIN__ [2]
+                0.00    0.00       4/234         eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00      10/234         inifile_mp_ini_read_double_file_ [131]
+                0.00    0.00      11/234         thermodata_mp_thermodata_free_ [132]
+                0.00    0.00      81/234         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00     117/234         inifile_mp_tnamevaluelist_add_ [122]
+[118]    0.0    0.00    0.00     234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       5/185         spherbessels_mp_initspherbessels_ [63]
+                0.00    0.00      40/185         cambmain_mp_setkvaluesforsources_ [84]
+                0.00    0.00      40/185         thermodata_mp_settimesteps_ [88]
+                0.00    0.00      50/185         modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      50/185         cambmain_mp_setkvaluesforint_ [79]
+[119]    0.0    0.00    0.00     185         ranges_mp_ranges_add_ [119]
+-----------------------------------------------
+                0.00    0.00      13/162         cambmain_mp_cmbmain_ [4]
+                0.00    0.00     149/162         cambmain_mp_dosourcek_ [5]
+[120]    0.0    0.00    0.00     162         gaugeinterface_mp_getnumeqns_ [120]
+                0.00    0.00      99/99          gaugeinterface_mp_setupscalararrayindices_ [124]
+-----------------------------------------------
+                0.00    0.00      60/130         lvalues_mp_interpolateclarrtemplated_ [126]
+                0.00    0.00      70/130         cambmain_mp_interpolatecls_ [135]
+[121]    0.0    0.00    0.00     130         lvalues_mp_interpolateclarr_ [121]
+-----------------------------------------------
+                0.00    0.00     117/117         inifile_mp_ini_namevalue_add_ [117]
+[122]    0.0    0.00    0.00     117         inifile_mp_tnamevaluelist_add_ [122]
+                0.00    0.00     117/234         inifile_mp_tnamevaluelist_haskey_ [118]
+                0.00    0.00       1/3           inifile_mp_tnamevaluelist_setcapacity_ [160]
+-----------------------------------------------
+                                   4             inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       1/100         inifile_mp_ini_read_real_file_ [191]
+                0.00    0.00       1/100         inifile_mp_ini_open_ [166]
+                0.00    0.00       2/100         reionization_mp_reionization_readparams_ [196]
+                0.00    0.00       2/100         MAIN__ [2]
+                0.00    0.00       2/100         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [151]
+                0.00    0.00       3/100         inifile_mp_ini_read_string_default_ [150]
+                0.00    0.00       3/100         recombination_mp_recombination_readparams_ [157]
+                0.00    0.00       5/100         initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00       7/100         bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       8/100         inifile_mp_ini_read_int_file_ [149]
+                0.00    0.00      14/100         eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00      25/100         inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00      27/100         inifile_mp_ini_read_double_file_ [131]
+[123]    0.0    0.00    0.00     100+4       inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00      81/234         inifile_mp_tnamevaluelist_haskey_ [118]
+                                   4             inifile_mp_ini_read_string_file_ [123]
+-----------------------------------------------
+                0.00    0.00      99/99          gaugeinterface_mp_getnumeqns_ [120]
+[124]    0.0    0.00    0.00      99         gaugeinterface_mp_setupscalararrayindices_ [124]
+-----------------------------------------------
+                0.00    0.00       1/86          spherbessels_mp_initspherbessels_ [63]
+                0.00    0.00       2/86          MAIN__ [2]
+                0.00    0.00       3/86          modeldata_mp_free_cltransfer_ [161]
+                0.00    0.00      20/86          cambmain_mp_setkvaluesforint_ [79]
+                0.00    0.00      20/86          cambmain_mp_setkvaluesforsources_ [84]
+                0.00    0.00      20/86          thermodata_mp_settimesteps_ [88]
+                0.00    0.00      20/86          cambmain_mp_cmbmain_ [4]
+[125]    0.0    0.00    0.00      86         ranges_mp_ranges_free_ [125]
+-----------------------------------------------
+                0.00    0.00      60/60          cambmain_mp_interpolatecls_ [135]
+[126]    0.0    0.00    0.00      60         lvalues_mp_interpolateclarrtemplated_ [126]
+                0.00    0.00      60/130         lvalues_mp_interpolateclarr_ [121]
+-----------------------------------------------
+                0.00    0.00      50/50          cambmain_mp_dosourcek_ [5]
+[127]    0.0    0.00    0.00      50         gaugeinterface_mp_initialt_ [127]
+-----------------------------------------------
+                0.00    0.00      20/40          modeldata_mp_init_cltransfer_ [71]
+                0.00    0.00      20/40          thermodata_mp_settimesteps_ [88]
+[128]    0.0    0.00    0.00      40         ranges_mp_ranges_getdpoints_ [128]
+-----------------------------------------------
+                0.00    0.00      10/30          lensing_mp_lens_cls_ [53]
+                0.00    0.00      20/30          cambmain_mp_cmbmain_ [4]
+[129]    0.0    0.00    0.00      30         lvalues_mp_initlval_ [129]
+-----------------------------------------------
+                0.00    0.00      29/29          gaugeinterface_mp_gaugeinterface_evolvetens_ [7]
+[130]    0.0    0.00    0.00      29         gaugeinterface_mp_copytensorvariablearray_ [130]
+-----------------------------------------------
+                0.00    0.00       1/27          inifile_mp_ini_read_double_array_file_ [190]
+                0.00    0.00       1/27          reionization_mp_reionization_readparams_ [196]
+                0.00    0.00       6/27          recombination_mp_recombination_readparams_ [157]
+                0.00    0.00       6/27          initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00      13/27          MAIN__ [2]
+[131]    0.0    0.00    0.00      27         inifile_mp_ini_read_double_file_ [131]
+                0.00    0.00      27/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00      10/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       1/26          inifile_mp_ini_close_file_ [188]
+                0.00    0.00       1/26          inifile_mp_ini_open_ [166]
+                0.00    0.00       2/26          inifile_mp_ini_read_string_array_ [167]
+                0.00    0.00       9/26          inifile_mp_ini_open_file_ [189]
+                0.00    0.00      13/26          MAIN__ [2]
+[132]    0.0    0.00    0.00      26         thermodata_mp_thermodata_free_ [132]
+                0.00    0.00      11/234         inifile_mp_tnamevaluelist_haskey_ [118]
+                0.00    0.00       1/3           inifile_mp_tnamevaluelist_setcapacity_ [160]
+-----------------------------------------------
+                0.00    0.00       1/25          reionization_mp_reionization_readparams_ [196]
+                0.00    0.00       3/25          initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00      21/25          MAIN__ [2]
+[133]    0.0    0.00    0.00      25         inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00      25/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       1/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00      20/20          cambmain_mp_cmbmain_ [4]
+[134]    0.0    0.00    0.00      20         cambmain_mp_freesourcemem_ [134]
+-----------------------------------------------
+                0.00    0.00      20/20          cambmain_mp_cltransfertocl_ [41]
+[135]    0.0    0.00    0.00      20         cambmain_mp_interpolatecls_ [135]
+                0.00    0.00      70/130         lvalues_mp_interpolateclarr_ [121]
+                0.00    0.00      60/60          lvalues_mp_interpolateclarrtemplated_ [126]
+-----------------------------------------------
+                0.00    0.00      20/20          cambmain_mp_cmbmain_ [4]
+[136]    0.0    0.00    0.00      20         initialpower_mp_initializepowers_ [136]
+-----------------------------------------------
+                0.00    0.00      20/20          cambmain_mp_cltransfertocl_ [41]
+[137]    0.0    0.00    0.00      20         modeldata_mp_init_cls_ [137]
+-----------------------------------------------
+                0.00    0.00       1/15          MAIN__ [2]
+                0.00    0.00       6/15          eftcamb_main_mp_read_eftcamb_flags_from_file_ [177]
+                0.00    0.00       8/15          eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_ [187]
+[138]    0.0    0.00    0.00      15         eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00      14/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       4/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_cltransfertocl_ [41]
+[139]    0.0    0.00    0.00      10         cambmain_mp_calclimberscalcls_ [139]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_calctenscls_ [46]
+[140]    0.0    0.00    0.00      10         cambmain_mp_getinitpowerarraytens_ [140]
+                0.00    0.00   22010/22010       initialpower_mp_tensorpower_ [113]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_cmbmain_ [4]
+[141]    0.0    0.00    0.00      10         cambmain_mp_getlimbertransfers_ [141]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_cmbmain_ [4]
+[142]    0.0    0.00    0.00      10         cambmain_mp_inittransfer_ [142]
+                0.00    0.00      10/10          transfer_mp_transfer_allocate_ [147]
+-----------------------------------------------
+                0.00    0.00      10/10          modelparams_mp_cambparams_set_ [27]
+[143]    0.0    0.00    0.00      10         eftcamb_abstract_model_mp_eftcambmodelinitbackground_ [143]
+-----------------------------------------------
+                0.00    0.00      10/10          modelparams_mp_cambparams_set_ [27]
+[144]    0.0    0.00    0.00      10         eftcamb_cache_mp_eftcambparametercacheinit_ [144]
+-----------------------------------------------
+                0.00    0.00      10/10          modelparams_mp_cambparams_set_ [27]
+[145]    0.0    0.00    0.00      10         eftcamb_returntogr_mp_eftcambreturntogr_feedback_ [145]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_cmbmain_ [4]
+[146]    0.0    0.00    0.00      10         modeldata_mp_init_limber_ [146]
+-----------------------------------------------
+                0.00    0.00      10/10          cambmain_mp_inittransfer_ [142]
+[147]    0.0    0.00    0.00      10         transfer_mp_transfer_allocate_ [147]
+-----------------------------------------------
+                0.00    0.00       1/8           MAIN__ [2]
+                0.00    0.00       3/8           eftcamb_main_mp_read_eftcamb_flags_from_file_ [177]
+                0.00    0.00       4/8           recombination_mp_recombination_readparams_ [157]
+[148]    0.0    0.00    0.00       8         bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       7/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       2/7           inifile_mp_ini_read_string_default_ [150]
+                0.00    0.00       1/1           bispectrum_mp_bispectrum_setdefparams_ [168]
+-----------------------------------------------
+                0.00    0.00       8/8           MAIN__ [2]
+[149]    0.0    0.00    0.00       8         inifile_mp_ini_read_int_file_ [149]
+                0.00    0.00       8/100         inifile_mp_ini_read_string_file_ [123]
+-----------------------------------------------
+                0.00    0.00       1/7           eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_ [187]
+                0.00    0.00       2/7           bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       4/7           MAIN__ [2]
+[150]    0.0    0.00    0.00       7         inifile_mp_ini_read_string_default_ [150]
+                0.00    0.00       3/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       1/1           inifile_mp_ini_read_string_default_file_ [192]
+                0.00    0.00       1/2           camb_mp_camb_validateparams_ [163]
+-----------------------------------------------
+                0.00    0.00       2/6           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_ [181]
+                0.00    0.00       4/6           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+[151]    0.0    0.00    0.00       6         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [151]
+                0.00    0.00       2/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       2/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       3/6           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+                0.00    0.00       3/6           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [155]
+[152]    0.0    0.00    0.00       6         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsetparamnumber_ [152]
+-----------------------------------------------
+                0.00    0.00       2/6           MAIN__ [2]
+                0.00    0.00       4/6           reionization_mp_reionization_readparams_ [196]
+[153]    0.0    0.00    0.00       6         initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00       6/27          inifile_mp_ini_read_double_file_ [131]
+                0.00    0.00       5/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       3/25          inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00       2/4           recombination_mp_recombination_readparams_ [157]
+                0.00    0.00       2/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       5/5           eftcamb_pure_eft_std_mp_eftcambpureeftstdinitmodelparametersfromfile_ [186]
+[154]    0.0    0.00    0.00       5         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+                0.00    0.00       4/6           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [151]
+                0.00    0.00       3/6           eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsetparamnumber_ [152]
+                0.00    0.00       3/3           eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dinitparams_ [158]
+                0.00    0.00       1/3           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_ [159]
+                0.00    0.00       1/2           eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsetparamnumber_ [164]
+                0.00    0.00       1/1           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dinitparams_ [182]
+                0.00    0.00       1/1           eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dinitparams_ [180]
+-----------------------------------------------
+                0.00    0.00       5/5           eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_ [183]
+[155]    0.0    0.00    0.00       5         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [155]
+                0.00    0.00       3/6           eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsetparamnumber_ [152]
+                0.00    0.00       1/3           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_ [159]
+                0.00    0.00       1/2           eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsetparamnumber_ [164]
+-----------------------------------------------
+                0.00    0.00       4/4           eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_ [185]
+[156]    0.0    0.00    0.00       4         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dfeedback_ [156]
+-----------------------------------------------
+                0.00    0.00       1/4           eftcamb_main_mp_read_eftcamb_flags_from_file_ [177]
+                0.00    0.00       1/4           MAIN__ [2]
+                0.00    0.00       2/4           initialpower_mp_initialpower_readparams_ [153]
+[157]    0.0    0.00    0.00       4         recombination_mp_recombination_readparams_ [157]
+                0.00    0.00       6/27          inifile_mp_ini_read_double_file_ [131]
+                0.00    0.00       4/8           bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       3/100         inifile_mp_ini_read_string_file_ [123]
+-----------------------------------------------
+                0.00    0.00       3/3           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+[158]    0.0    0.00    0.00       3         eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dinitparams_ [158]
+-----------------------------------------------
+                0.00    0.00       1/3           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+                0.00    0.00       1/3           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_ [172]
+                0.00    0.00       1/3           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [155]
+[159]    0.0    0.00    0.00       3         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_ [159]
+-----------------------------------------------
+                0.00    0.00       1/3           thermodata_mp_thermodata_free_ [132]
+                0.00    0.00       1/3           inifile_mp_tnamevaluelist_add_ [122]
+                0.00    0.00       1/3           inifile_mp_ini_open_file_ [189]
+[160]    0.0    0.00    0.00       3         inifile_mp_tnamevaluelist_setcapacity_ [160]
+-----------------------------------------------
+                0.00    0.00       3/3           modeldata_mp_modeldata_free_ [194]
+[161]    0.0    0.00    0.00       3         modeldata_mp_free_cltransfer_ [161]
+                0.00    0.00       3/86          ranges_mp_ranges_free_ [125]
+-----------------------------------------------
+                0.00    0.00       3/3           modeldata_mp_modeldata_free_ [194]
+[162]    0.0    0.00    0.00       3         modeldata_mp_free_limber_ [162]
+-----------------------------------------------
+                0.00    0.00       1/2           inifile_mp_ini_read_string_default_ [150]
+                0.00    0.00       1/2           MAIN__ [2]
+[163]    0.0    0.00    0.00       2         camb_mp_camb_validateparams_ [163]
+                0.00    0.00       1/1           reionization_mp_reionization_validate_ [197]
+                0.00    0.00       1/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       1/2           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+                0.00    0.00       1/2           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [155]
+[164]    0.0    0.00    0.00       2         eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsetparamnumber_ [164]
+-----------------------------------------------
+                0.00    0.00       2/2           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_ [181]
+[165]    0.0    0.00    0.00       2         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dparametervalues_ [165]
+-----------------------------------------------
+                0.00    0.00       2/2           MAIN__ [2]
+[166]    0.0    0.00    0.00       2         inifile_mp_ini_open_ [166]
+                0.00    0.00       1/26          thermodata_mp_thermodata_free_ [132]
+                0.00    0.00       1/240         inifile_mp_ini_namevalue_add_ [117]
+                0.00    0.00       1/1           inifile_mp_ini_open_file_ [189]
+                0.00    0.00       1/100         inifile_mp_ini_read_string_file_ [123]
+-----------------------------------------------
+                0.00    0.00       2/2           MAIN__ [2]
+[167]    0.0    0.00    0.00       2         inifile_mp_ini_read_string_array_ [167]
+                0.00    0.00       2/26          thermodata_mp_thermodata_free_ [132]
+-----------------------------------------------
+                0.00    0.00       1/1           bispectrum_mp_bispectrum_readparams_ [148]
+[168]    0.0    0.00    0.00       1         bispectrum_mp_bispectrum_setdefparams_ [168]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[169]    0.0    0.00    0.00       1         camb_mp_camb_setdefparams_ [169]
+                0.00    0.00       1/1           initialpower_mp_setdefpowerparams_ [193]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_allocate_eftcamb_model_ [173]
+[170]    0.0    0.00    0.00       1         eftcamb_abstract_model_mp_eftcambmodelinitialize_ [170]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_ [172]
+[171]    0.0    0.00    0.00       1         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparamnumber_ [171]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_ [183]
+[172]    0.0    0.00    0.00       1         eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_ [172]
+                0.00    0.00       1/1           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparamnumber_ [171]
+                0.00    0.00       1/3           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_ [159]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+[173]    0.0    0.00    0.00       1         eftcamb_main_mp_allocate_eftcamb_model_ [173]
+                0.00    0.00       1/1           eftcamb_abstract_model_mp_eftcambmodelinitialize_ [170]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+[174]    0.0    0.00    0.00       1         eftcamb_main_mp_allocate_eftcamb_model_functions_ [174]
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_ [183]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[175]    0.0    0.00    0.00       1         eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+                0.00    0.00       1/1           eftcamb_main_mp_allocate_eftcamb_model_ [173]
+                0.00    0.00       1/1           eftcamb_main_mp_read_eftcamb_model_selection_ [179]
+                0.00    0.00       1/1           eftcamb_main_mp_allocate_eftcamb_model_functions_ [174]
+                0.00    0.00       1/1           eftcamb_main_mp_read_eftcamb_model_parameters_ [178]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[176]    0.0    0.00    0.00       1         eftcamb_main_mp_print_eftcamb_flags_ [176]
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_ [185]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[177]    0.0    0.00    0.00       1         eftcamb_main_mp_read_eftcamb_flags_from_file_ [177]
+                0.00    0.00       6/15          eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00       3/8           bispectrum_mp_bispectrum_readparams_ [148]
+                0.00    0.00       1/4           recombination_mp_recombination_readparams_ [157]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+[178]    0.0    0.00    0.00       1         eftcamb_main_mp_read_eftcamb_model_parameters_ [178]
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdinitmodelparametersfromfile_ [186]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_init_eftcamb_model_from_file_ [175]
+[179]    0.0    0.00    0.00       1         eftcamb_main_mp_read_eftcamb_model_selection_ [179]
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_ [187]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+[180]    0.0    0.00    0.00       1         eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dinitparams_ [180]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_ [185]
+[181]    0.0    0.00    0.00       1         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_ [181]
+                0.00    0.00       2/6           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [151]
+                0.00    0.00       2/2           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dparametervalues_ [165]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+[182]    0.0    0.00    0.00       1         eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dinitparams_ [182]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_allocate_eftcamb_model_functions_ [174]
+[183]    0.0    0.00    0.00       1         eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_ [183]
+                0.00    0.00       5/5           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [155]
+                0.00    0.00       1/1           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_ [172]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[184]    0.0    0.00    0.00       1         eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeparametersnumber_ [184]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_print_eftcamb_flags_ [176]
+[185]    0.0    0.00    0.00       1         eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_ [185]
+                0.00    0.00       4/4           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dfeedback_ [156]
+                0.00    0.00       1/1           eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_ [181]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_read_eftcamb_model_parameters_ [178]
+[186]    0.0    0.00    0.00       1         eftcamb_pure_eft_std_mp_eftcambpureeftstdinitmodelparametersfromfile_ [186]
+                0.00    0.00       5/5           eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [154]
+-----------------------------------------------
+                0.00    0.00       1/1           eftcamb_main_mp_read_eftcamb_model_selection_ [179]
+[187]    0.0    0.00    0.00       1         eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_ [187]
+                0.00    0.00       8/15          eftcamb_main_mp_print_eftcamb_header_ [138]
+                0.00    0.00       1/7           inifile_mp_ini_read_string_default_ [150]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[188]    0.0    0.00    0.00       1         inifile_mp_ini_close_file_ [188]
+                0.00    0.00       1/26          thermodata_mp_thermodata_free_ [132]
+-----------------------------------------------
+                                   1             inifile_mp_ini_open_file_ [189]
+                0.00    0.00       1/1           inifile_mp_ini_open_ [166]
+[189]    0.0    0.00    0.00       1+1       inifile_mp_ini_open_file_ [189]
+                0.00    0.00     239/240         inifile_mp_ini_namevalue_add_ [117]
+                0.00    0.00       9/26          thermodata_mp_thermodata_free_ [132]
+                0.00    0.00       1/234         inifile_mp_tnamevaluelist_haskey_ [118]
+                0.00    0.00       1/3           inifile_mp_tnamevaluelist_setcapacity_ [160]
+                                   1             inifile_mp_ini_open_file_ [189]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[190]    0.0    0.00    0.00       1         inifile_mp_ini_read_double_array_file_ [190]
+                0.00    0.00       1/27          inifile_mp_ini_read_double_file_ [131]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[191]    0.0    0.00    0.00       1         inifile_mp_ini_read_real_file_ [191]
+                0.00    0.00       1/100         inifile_mp_ini_read_string_file_ [123]
+-----------------------------------------------
+                0.00    0.00       1/1           inifile_mp_ini_read_string_default_ [150]
+[192]    0.0    0.00    0.00       1         inifile_mp_ini_read_string_default_file_ [192]
+                0.00    0.00       1/234         inifile_mp_tnamevaluelist_haskey_ [118]
+-----------------------------------------------
+                0.00    0.00       1/1           camb_mp_camb_setdefparams_ [169]
+[193]    0.0    0.00    0.00       1         initialpower_mp_setdefpowerparams_ [193]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[194]    0.0    0.00    0.00       1         modeldata_mp_modeldata_free_ [194]
+                0.00    0.00       3/3           modeldata_mp_free_limber_ [162]
+                0.00    0.00       3/3           modeldata_mp_free_cltransfer_ [161]
+-----------------------------------------------
+                0.00    0.00       1/1           recombination_mp_recombination_init_ [24]
+[195]    0.0    0.00    0.00       1         recombination_mp_get_init_ [195]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[196]    0.0    0.00    0.00       1         reionization_mp_reionization_readparams_ [196]
+                0.00    0.00       4/6           initialpower_mp_initialpower_readparams_ [153]
+                0.00    0.00       2/100         inifile_mp_ini_read_string_file_ [123]
+                0.00    0.00       1/25          inifile_mp_ini_read_logical_file_ [133]
+                0.00    0.00       1/27          inifile_mp_ini_read_double_file_ [131]
+-----------------------------------------------
+                0.00    0.00       1/1           camb_mp_camb_validateparams_ [163]
+[197]    0.0    0.00    0.00       1         reionization_mp_reionization_validate_ [197]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[198]    0.0    0.00    0.00       1         spherbessels_mp_bessels_free_ [198]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[199]    0.0    0.00    0.00       1         transfer_mp_transfer_free_ [199]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [2]
+[200]    0.0    0.00    0.00       1         transfer_mp_transfer_sortandindexredshifts_ [200]
+-----------------------------------------------
+
+Index by function name
+
+   [2] MAIN__                [178] eftcamb_main_mp_read_eftcamb_model_parameters_ [191] inifile_mp_ini_read_real_file_
+  [72] __intel_memset        [179] eftcamb_main_mp_read_eftcamb_model_selection_ [167] inifile_mp_ini_read_string_array_
+  [26] __intel_ssse3_rep_memcpy [35] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dfirstderivative_ [150] inifile_mp_ini_read_string_default_
+  [91] __libm_acos_ex        [180] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dinitparams_ [192] inifile_mp_ini_read_string_default_file_
+  [92] __libm_cos_y8          [57] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dintegral_ [123] inifile_mp_ini_read_string_file_
+  [19] __libm_exp_e7          [62] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsecondderivative_ [122] inifile_mp_tnamevaluelist_add_
+  [68] __libm_exp_l9         [164] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dsetparamnumber_ [118] inifile_mp_tnamevaluelist_haskey_
+  [66] __libm_expf_dispatch_table_init [39] eftcamb_neutral_parametrization_1d_mp_wdelcdmparametrized1dvalue_ [160] inifile_mp_tnamevaluelist_setcapacity_
+  [17] __libm_log_e7          [47] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dfirstderivative_ [101] init_massive_nu_
+  [67] __libm_log_l9         [158] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dinitparams_ [136] initialpower_mp_initializepowers_
+  [55] __libm_logf_dispatch_table_init [81] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dintegral_ [153] initialpower_mp_initialpower_readparams_
+  [15] __libm_pow_e7          [56] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsecondderivative_ [112] initialpower_mp_scalarpower_
+  [61] __libm_pow_l9         [152] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dsetparamnumber_ [193] initialpower_mp_setdefpowerparams_
+  [59] __libm_powf_dispatch_table_init [65] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dthirdderivative_ [113] initialpower_mp_tensorpower_
+  [93] __libm_sse2_sincos     [48] eftcamb_neutral_parametrization_1d_mp_zeroparametrized1dvalue_ [52] lensing_mp_corrfuncfullskyimpl_
+ [148] bispectrum_mp_bispectrum_readparams_ [181] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfeedback_ [53] lensing_mp_lens_cls_
+ [168] bispectrum_mp_bispectrum_setdefparams_ [44] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dfirstderivative_ [129] lvalues_mp_initlval_
+   [1] camb_mp_camb_getresults_ [182] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dinitparams_ [121] lvalues_mp_interpolateclarr_
+ [169] camb_mp_camb_setdefparams_ [165] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dparametervalues_ [126] lvalues_mp_interpolateclarrtemplated_
+ [163] camb_mp_camb_validateparams_ [45] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsecondderivative_ [107] massivenu_mp_nu_background_
+ [139] cambmain_mp_calclimberscalcls_ [159] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dsetparamnumber_ [108] massivenu_mp_nu_drho_
+   [9] cambmain_mp_calcscalarsources_ [75] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dthirdderivative_ [102] massivenu_mp_nu_init_
+  [60] cambmain_mp_calcscalcls_ [49] eftcamb_power_law_parametrizations_1d_mp_powerlawparametrized1dvalue_ [109] massivenu_mp_nu_pidot_
+  [46] cambmain_mp_calctenscls_ [70] eftcamb_pure_eft_std_mp_eftcambpureeftstdadditionalmodelstability_ [161] modeldata_mp_free_cltransfer_
+  [41] cambmain_mp_cltransfertocl_ [183] eftcamb_pure_eft_std_mp_eftcambpureeftstdallocatemodelselection_ [162] modeldata_mp_free_limber_
+   [4] cambmain_mp_cmbmain_   [18] eftcamb_pure_eft_std_mp_eftcambpureeftstdbackgroundeftfunctions_ [137] modeldata_mp_init_cls_
+  [16] cambmain_mp_doflatintegration_ [31] eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeadotoa_ [71] modeldata_mp_init_cltransfer_
+   [5] cambmain_mp_dosourcek_ [50] eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputedtauda_ [146] modeldata_mp_init_limber_
+ [134] cambmain_mp_freesourcemem_ [30] eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputehubbleder_ [194] modeldata_mp_modeldata_free_
+ [140] cambmain_mp_getinitpowerarraytens_ [184] eftcamb_pure_eft_std_mp_eftcambpureeftstdcomputeparametersnumber_ [94] modelparams_mp_angulardiameterdistance_
+ [141] cambmain_mp_getlimbertransfers_ [185] eftcamb_pure_eft_std_mp_eftcambpureeftstdfeedback_ [27] modelparams_mp_cambparams_set_
+  [54] cambmain_mp_gettransfer_ [186] eftcamb_pure_eft_std_mp_eftcambpureeftstdinitmodelparametersfromfile_ [95] modelparams_mp_comovingradialdistance_
+  [58] cambmain_mp_initsourceinterpolation_ [187] eftcamb_pure_eft_std_mp_eftcambpureeftstdreadmodelselectionfromfile_ [100] modelparams_mp_deltatime_
+ [142] cambmain_mp_inittransfer_ [23] eftcamb_pure_eft_std_mp_eftcambpureeftstdsecondordereftfunctions_ [106] modelparams_mp_dsound_da_exact_
+  [21] cambmain_mp_initvars_ [145] eftcamb_returntogr_mp_eftcambreturntogr_feedback_ [104] modelparams_mp_dtda_
+ [111] cambmain_mp_integrationvars_init_ [85] eftcamb_returntogr_mp_eftcambreturntogr_functions_ [51] modelparams_mp_timeofz_
+ [135] cambmain_mp_interpolatecls_ [32] eftcamb_stability_mp_eftcamb_stability_check_ [119] ranges_mp_ranges_add_
+  [28] cambmain_mp_interpolatesources_ [43] eftcamb_stability_mp_eftstabilitycomputation_ [125] ranges_mp_ranges_free_
+  [79] cambmain_mp_setkvaluesforint_ [33] eftcamb_stability_mp_eftteststability_ [128] ranges_mp_ranges_getdpoints_
+  [84] cambmain_mp_setkvaluesforsources_ [74] for_fp_class_t_ [195] recombination_mp_get_init_
+  [13] cambmain_mp_sourcetotransfers_ [86] for_is_nan_t_  [80] recombination_mp_ion_
+  [90] do_alloc_copy         [116] gaugeinterface_mp_copyscalarvariablearray_ [24] recombination_mp_recombination_init_
+  [20] dtauda_               [130] gaugeinterface_mp_copytensorvariablearray_ [157] recombination_mp_recombination_readparams_
+   [6] dverk_                  [8] gaugeinterface_mp_derivs_ [114] recombination_mp_recombination_xe_
+  [77] eftcamb_abstract_model_mp_eftcambmodelcomputeeinsteinfactors_ [12] gaugeinterface_mp_derivst_ [37] reionization_mp_reionization_doptdepth_dz_
+  [73] eftcamb_abstract_model_mp_eftcambmodelcomputepifactors_ [10] gaugeinterface_mp_gaugeinterface_evolvescal_ [36] reionization_mp_reionization_init_
+  [40] eftcamb_abstract_model_mp_eftcambmodelcomputerhoqpq_ [7] gaugeinterface_mp_gaugeinterface_evolvetens_ [196] reionization_mp_reionization_readparams_
+  [89] eftcamb_abstract_model_mp_eftcambmodelcomputestabilityfactors_ [99] gaugeinterface_mp_gaugeinterface_init_ [197] reionization_mp_reionization_validate_
+ [110] eftcamb_abstract_model_mp_eftcambmodelcomputetensorfactors_ [11] gaugeinterface_mp_gaugeinterface_scalev_ [38] reionization_mp_reionization_zrefromoptdepth_
+ [143] eftcamb_abstract_model_mp_eftcambmodelinitbackground_ [120] gaugeinterface_mp_getnumeqns_ [198] spherbessels_mp_bessels_free_
+ [170] eftcamb_abstract_model_mp_eftcambmodelinitialize_ [29] gaugeinterface_mp_initial_ [83] spherbessels_mp_bjl_
+ [156] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dfeedback_ [127] gaugeinterface_mp_initialt_ [63] spherbessels_mp_initspherbessels_
+ [154] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dinitfromfile_ [78] gaugeinterface_mp_initialv_ [87] splder_
+ [151] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparameternames_ [14] gaugeinterface_mp_massivenuvars_ [105] thermodata_mp_ddamping_da_
+ [171] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dparamnumber_ [64] gaugeinterface_mp_massivenuvarsout_ [96] thermodata_mp_ddragoptdepth_dz_
+ [155] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetname_ [42] gaugeinterface_mp_output_ [115] thermodata_mp_dothermospline_
+ [172] eftcamb_abstract_parametrizations_1d_mp_parametrizedfunction1dsetparamnames_ [34] gaugeinterface_mp_outputt_ [97] thermodata_mp_dragoptdepth_
+ [144] eftcamb_cache_mp_eftcambparametercacheinit_ [124] gaugeinterface_mp_setupscalararrayindices_ [22] thermodata_mp_inithermo_
+  [25] eftcamb_cache_mp_eftcambtimestepcacheinit_ [103] gaugeinterface_mp_switchtomassivenuapprox_ [88] thermodata_mp_settimesteps_
+  [82] eftcamb_cache_mp_eftcambtimestepcacheisnan_ [188] inifile_mp_ini_close_file_ [76] thermodata_mp_thermo_
+  [69] eftcamb_cpl_parametrizations_1d_mp_cplparametrized1dsetparamnumber_ [117] inifile_mp_ini_namevalue_add_ [132] thermodata_mp_thermodata_free_
+ [173] eftcamb_main_mp_allocate_eftcamb_model_ [166] inifile_mp_ini_open_ [147] transfer_mp_transfer_allocate_
+ [174] eftcamb_main_mp_allocate_eftcamb_model_functions_ [189] inifile_mp_ini_open_file_ [199] transfer_mp_transfer_free_
+ [175] eftcamb_main_mp_init_eftcamb_model_from_file_ [190] inifile_mp_ini_read_double_array_file_ [98] transfer_mp_transfer_get_sigmar_
+ [176] eftcamb_main_mp_print_eftcamb_flags_ [131] inifile_mp_ini_read_double_file_ [200] transfer_mp_transfer_sortandindexredshifts_
+ [138] eftcamb_main_mp_print_eftcamb_header_ [149] inifile_mp_ini_read_int_file_
+ [177] eftcamb_main_mp_read_eftcamb_flags_from_file_ [133] inifile_mp_ini_read_logical_file_

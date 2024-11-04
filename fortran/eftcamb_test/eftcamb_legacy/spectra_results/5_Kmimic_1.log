@@ -1,0 +1,141 @@
+***************************************************************
+     ______________________   __  ______  
+    / __/ __/_  __/ ___/ _ | /  |/  / _ ) 
+   / _// _/  / / / /__/ __ |/ /|_/ / _  | 
+  /___/_/   /_/  \___/_/ |_/_/  /_/____/   V3.1 Sept20
+  
+***************************************************************
+ 
+ EFTCAMB feedback level  =  3
+ 
+ EFTCAMB stability flags:
+  Math ghost stability   =  F
+  Math mass stability    =  F
+  Ghost stability        =  T
+  Gradient stability     =  T
+  Mass stability         =  F
+  Mass stability rate    =  0.10000E+02
+  Additional priors      =  T
+ 
+ EFTCAMB model flags:
+   EFTflag             =  4
+   FullMappingEFTmodel =  3
+ 
+   Model               =  K-mouflage
+   Number of params    =  3
+   K-mouflage with LCDM expansion history, parameters related to the function U are ignored
+ 
+          alphaU       =    0.200000
+          gammaU       =    1.000000
+          m            =    3.000000
+          eps2_0       =    0.010000
+          gammaA       =    5.000000
+ 
+***************************************************************
+ EFTCAMB Kmouflage background solver
+
+***************************************************************
+ EFTCAMB Return to GR time:        0.1000E-07
+ EFTCAMB Return to GR threshold:   0.1000E-07
+ Warning, RGR time and turn on time coincide.
+ The model might be far from GR at initial time.
+
+ EFT functions at RGR time: 
+   OmegaV       =    0.2030E-01
+   EFTc         =    0.1890E+20
+   EFTLambda    =    0.9451E+19
+   EFTcdot      =    0.1631E+23
+   EFTLambdadot =    0.8156E+22
+   EFTGamma1V   =    0.3468E+27
+   EFTGamma1P   =    0.1387E+36
+***************************************************************
+ EFTCAMB: checking stability of the theory
+
+ EFTCAMB: theory stable
+***************************************************************
+Reion redshift       =  10.879
+Integrated opt depth =  0.0900
+H0                   = 70.000000
+Om_b h^2             =  0.022600
+Om_c h^2             =  0.112000
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.725221
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.274694
+100 theta (CosmoMC)  =  1.045864
+Reion opt depth      =  0.0900
+Age of universe/GYr  =  13.606
+zstar                =  1089.31
+r_s(zstar)/Mpc       =  144.58
+100*theta            =  1.045770
+DA(zstar)/Gpc        =  13.82509
+zdrag                =  1060.20
+r_s(zdrag)/Mpc       =  147.16
+k_D(zstar) Mpc       =  0.1412
+100*theta_D          =  0.160955
+z_EQ (if v_nu=1)     =  3216.47
+k_EQ Mpc (if v_nu=1) =  0.009941
+100*theta_EQ         =  0.856875
+100*theta_rs_EQ      =  0.472200
+tau_recomb/Mpc       =  281.20  tau_now/Mpc =  14106.1
+***************************************************************
+ EFTCAMB Kmouflage background solver
+
+***************************************************************
+ EFTCAMB Return to GR time:        0.1000E-07
+ EFTCAMB Return to GR threshold:   0.1000E-07
+ Warning, RGR time and turn on time coincide.
+ The model might be far from GR at initial time.
+
+ EFT functions at RGR time: 
+   OmegaV       =    0.2030E-01
+   EFTc         =    0.1890E+20
+   EFTLambda    =    0.9451E+19
+   EFTcdot      =    0.1631E+23
+   EFTLambdadot =    0.8156E+22
+   EFTGamma1V   =    0.3468E+27
+   EFTGamma1P   =    0.1387E+36
+***************************************************************
+ EFTCAMB: checking stability of the theory
+
+ EFTCAMB: theory stable
+***************************************************************
+Reion redshift       =  10.879
+Integrated opt depth =  0.0900
+ Window scales: 1 peak: 0.5000, sigma: 0.1000, start:0.8000, end 0.2000
+ Window scales: 2 peak: 0.5000, sigma: 0.3000, start:1.4000, end 0.0000
+ source max_eta_k:    468743.390362405      kmax =    33.2297486751490     
+H0                   = 70.000000
+Om_b h^2             =  0.022600
+Om_c h^2             =  0.112000
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.725221
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.274694
+100 theta (CosmoMC)  =  1.045864
+1 Int W              =  0.999547
+2 Int W              =  0.951283
+Reion opt depth      =  0.0900
+ nwindow 1: 366
+ nwindow 2: 1796
+Age of universe/GYr  =  13.606
+zstar                =  1089.31
+r_s(zstar)/Mpc       =  144.58
+100*theta            =  1.045770
+DA(zstar)/Gpc        =  13.82509
+zdrag                =  1060.20
+r_s(zdrag)/Mpc       =  147.16
+k_D(zstar) Mpc       =  0.1412
+100*theta_D          =  0.160955
+z_EQ (if v_nu=1)     =  3216.47
+k_EQ Mpc (if v_nu=1) =  0.009941
+100*theta_EQ         =  0.856875
+100*theta_rs_EQ      =  0.472200
+tau_recomb/Mpc       =  281.19  tau_now/Mpc =  14106.1
+z =    0.50  tau =  12210.2  chi =   1895.9 tau_min =10488.7 tau_max =14106.1
+z =    0.50  tau =  12210.2  chi =   1895.9 tau_min = 8422.7 tau_max =14106.1
+ Limber switch 0: 110
+ Limber switch 1: 110
+ Limber switch 2: 110
+at z =  0.000 sigma8 (all matter) =  0.7759
+at z =  0.000 sigma8^2_vd/sigma8  =  0.3763

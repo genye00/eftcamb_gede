@@ -1,0 +1,170 @@
+# debug: true
+theory:
+  hede_shoot:
+    python_path: /data2/code/eftcamb_osc
+    cosmo_path: /data2/code/eftcamb_osc
+    gravity_model: 3
+    stop_at_error: true
+    extra_args:
+      num_massive_neutrinos: 1
+      nnu: 3.044
+      mnu: 0.06
+  camb:
+    # stop_at_error: true
+    ignore_obsolete: true
+    requires: [omch2, ombh2, H0, Horndeski_param1, Horndeski_param2, Honrdeski_phi_ini]
+    path: /data2/code/eftcamb_osc
+    extra_args:
+      num_massive_neutrinos: 1
+      nnu: 3.044
+      mnu: 0.06
+      dark_energy_model: EFTCAMB
+      EFTflag: 4
+      FullMappingEFTmodel: 0
+      Horndeski_model: 3
+      Horndeski_parameter_number: 2
+      Horndeski_model_specific_ic: true
+      Horndeski_evolve_hubble: false
+      EFT_evolve_delta_phi: true
+      EFT_evolve_metric_h: false
+      Horndeski_background_interpolation_num_points: 6000
+      Horndeski_background_a_ini: 1.e-14
+      a_pertcutoff_before: 1.e-5
+      a_pertcutoff_after: 1.e-2
+      EFTCAMB_turn_on_time: 1.e-10
+      EFT_ghost_math_stability: false
+      EFT_mass_math_stability: False
+      EFT_ghost_stability: false
+      EFT_gradient_stability: false
+      EFT_mass_stability: false
+      EFT_additional_priors: false
+likelihood:
+  des_y1.joint:
+  # planck_NPIPE_highl_CamSpec.TTTEEE:
+  planck_2020_hillipop.TTTEEE:
+  # planck_2018_highl_plik.TTTEEE_lite: null
+  planck_2018_lowl.TT: null
+  # planck_2018_lowl.EE: null
+  planck_2020_lollipop.lowlE: null
+  # planck_2018_lensing.clik: null
+  # planck_2018_lensing.native:
+  planckpr4lensing:
+  bao.sixdf_2011_bao: null
+  bao.sdss_dr7_mgs: null
+  bao.sdss_dr12_consensus_bao: null
+  pantheonplus:
+    data_path: /data2/data/PantheonPlus/
+    python_path: /data2/code/eftcamb_osc
+    with_sh0es: true
+params:
+  ombh2:
+    prior:
+      min: 0.01
+      max: 0.03
+    ref:
+      dist: norm
+      loc: 0.0225
+      scale: 0.0003
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+  omch2:
+    prior:
+      min: 0.1
+      max: 0.15
+    ref:
+      dist: norm
+      loc: 0.125
+      scale: 0.003
+    proposal: 0.0005
+    latex: \Omega_\mathrm{c} h^2
+  H0:
+    prior:
+      min: 60
+      max: 80
+    ref:
+      dist: norm
+      loc: 70
+      scale: 2
+    proposal: 2
+    latex: H_0
+  ns:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref:
+      dist: norm
+      loc: 0.98
+      scale: 0.01
+    proposal: 0.002
+    latex: n_\mathrm{s}
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref:
+      dist: norm
+      loc: 3.05
+      scale: 0.001
+    proposal: 0.001
+    latex: \log(10^{10} A_\mathrm{s})
+    drop: true
+  tau:
+    prior:
+      min: 0.01
+      max: 0.8
+    ref:
+      dist: norm
+      loc: 0.055
+      scale: 0.006
+    proposal: 0.003
+    latex: \tau_\mathrm{reio}
+  As:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    latex: A_\mathrm{s}
+  f_hede:
+    prior:
+      min: 0
+      max: 0.3
+    ref:
+      dist: norm
+      loc: 0.08
+      scale: 0.01
+    proposal: 0.01
+    latex: f_\mathrm{hede}
+  lnzc:
+    prior:
+      min: 7
+      max: 9
+    proposal: 0.1
+    latex: \log(1+z_c)
+  xiv_phi:
+    prior:
+      min: -5.0
+      max: 0.4
+    proposal: 0.2
+    latex: \xi V_{\phi}
+  Horndeski_param1:
+    derived: false
+  Horndeski_param2:
+    derived: false
+  Horndeski_phi_ini:
+    derived: false
+  Mb:
+    prior:
+      min: -20
+      max: -18
+    ref: -19.320042
+    proposal: 0.01
+    latex: M_b
+  omegam:
+    latex: \Omega_\mathrm{m}
+  sigma8:
+    latex: \sigma_8
+sampler:
+  mcmc: 
+    drag: false
+    oversample_power: 0.4
+    Rminus1_stop: 0.02
+    Rminus1_cl_stop: 0.2
+output: chains/hede_mc/boxphi_f_mc_p20des
+  
